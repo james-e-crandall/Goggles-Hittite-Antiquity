@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Leaders>
+	</Leaders>
+	<LeaderItems>
+
+	</LeaderItems>
+	<LeaderTags>
+
+	</LeaderTags>
+	<LeaderQuotes>
+
+	</LeaderQuotes>
+	<LeaderCivilizationBias>
+
+	</LeaderCivilizationBias>
+	<Civilizations>
+		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE" CivilizationName="LOC_CIVILIZATION_HITTITE_NAME" CivilizationFullName="LOC_CIVILIZATION_HITTITE_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_HITTITE_DESCRIPTION" CivilizationIcon="civ_sym_hittite.png"/>
+	</Civilizations>
+	<CivilizationItems>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE" Type="TRAIT_HITTITE_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_HITTITE_ABILITY_NAME" Description="LOC_TRAIT_HITTITE_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE" Type="UNIT_GOLDEN_SPEARMAN" Kind="KIND_UNIT" Name="LOC_UNIT_GOLDEN_SPEARMAN_NAME" Description="LOC_UNIT_GOLDEN_SPEARMAN_BASE_DESCRIPTION" Icon="ICON_UNIT_GOLDEN_SPEARMAN"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE" Type="UNIT_GOLDEN_CHARIOT" Kind="KIND_UNIT" Name="LOC_UNIT_GOLDEN_CHARIOT_NAME" Description="LOC_UNIT_GOLDEN_CHARIOT_BASE_DESCRIPTION" Icon="ICON_UNIT_GOLDEN_CHARIOT"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE" Type="BUILDING_HUWASI" Kind="KIND_BUILDING" Name="LOC_BUILDING_HUWASI_NAME" Description="LOC_BUILDING_HUWASI_DESCRIPTION" Icon="ICON_BUILDING_HUWASI"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE" Type="BUILDING_GISKINTI" Kind="KIND_BUILDING" Name="LOC_BUILDING_GISKINTI_NAME" Description="LOC_BUILDING_GISKINTI_DESCRIPTION" Icon="ICON_BUILDING_GISKINTI"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE" Type="QUARTER_KUNTARRA" Kind="KIND_QUARTER" Name="LOC_QUARTER_KUNTARRA_NAME" Description="LOC_QUARTER_KUNTARRA_DESCRIPTION" Icon="city_uniquequarter"/>
+	
+	</CivilizationItems>
+	<CivilizationTags>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE" TagType="TAG_TRAIT_EXPANSIONIST"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE" TagType="TAG_TRAIT_ECONOMIC"/>
+	</CivilizationTags>
+	<LeaderCivilizationBias>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE" LeaderDomain="StandardLeaders" LeaderType="LEADER_HATSHEPSUT" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_HATSHEPSUT_HITTITE_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE" LeaderDomain="StandardLeaders" LeaderType="LEADER_XERXES" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_XERXES_HITTITE_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE" LeaderDomain="StandardLeaders" LeaderType="LEADER_XERXES_ALT" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_XERXES_ALT_HITTITE_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		
+	</LeaderCivilizationBias>
+	<CivilizationUnlocks>
+		
+	</CivilizationUnlocks>
+	<LeaderUnlocks>
+
+	</LeaderUnlocks>
+	<Mementos>
+
+	</Mementos>
+</Database>

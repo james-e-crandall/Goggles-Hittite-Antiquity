@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- 
+		Labarna
+		Tier 1: Unlocks the Huwasi unique building and the Ritual Pits Tradition. +1 Settlement Limit.
+		Tier 2: All improved bonus Resources have +1 added to their effects. Unlocks the Yazilikaya wonder,
+		
+		Hapalki
+		Tier 1: Unlocks the Giškinti building. All settlements can be assigned +1 extra resource. Grants a copy of Iron in the Capital.
+		Tier 2: Unlocks the Gifts of the Storm God Tradition. +1 Culture from each copy of Iron you have.
+		
+		Edict of Telepinu
+		Tier 1: Unlocks the Oath of Loyalty Tradition. All Gal Mesedi receive +10 XP. (Including those you recruit later).
+		Tier 2: Unlocks the Pankuš Tradition. +1 Settlement Limit.
+		 -->
+
+
+		<!-- tree -->
+		<Row Type="TREE_CIVICS_AQ_HITTITE" Kind="KIND_TREE"/>
+		<!-- nodes -->
+		<Row Type="NODE_CIVIC_AQ_HITTITE_LABARNA" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_AQ_HITTITE_HAPALKI" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU" Kind="KIND_TREE_NODE"/>
+	</Types>
+	<TypeQuotes>
+		<Row Type="NODE_CIVIC_AQ_HITTITE_LABARNA" Quote="LOC_NODE_CIVIC_AQ_HITTITE_LABARNA_QUOTE" QuoteAuthor="LOC_NODE_CIVIC_AQ_HITTITE_LABARNA_QUOTE_AUTHOR" QuoteAudio="VO_Quote_PeriplusErythraeanSea" />
+		<Row Type="NODE_CIVIC_AQ_HITTITE_HAPALKI" Quote="LOC_NODE_CIVIC_AQ_HITTITE_HAPALKI_QUOTE" QuoteAuthor="LOC_NODE_CIVIC_AQ_HITTITE_HAPALKI_QUOTE_AUTHOR" QuoteAudio="VO_Quote_PeriplusErythraeanSea" />
+		<Row Type="NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU" Quote="LOC_NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU_QUOTE" QuoteAuthor="LOC_NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU_QUOTE_AUTHOR" QuoteAudio="VO_Quote_PeriplusErythraeanSea" />
+
+	</TypeQuotes>
+	<ProgressionTrees>
+		<Row ProgressionTreeType="TREE_CIVICS_AQ_HITTITE" AgeType="AGE_ANTIQUITY" SystemType="SYSTEM_CULTURE" Name="LOC_TREE_CIVICS_AQ_HITTITE_NAME"/>
+	</ProgressionTrees>
+	<ProgressionTreeNodes>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HITTITE_LABARNA" ProgressionTree="TREE_CIVICS_AQ_HITTITE" Cost="150" Name="LOC_NODE_CIVIC_AQ_HITTITE_LABARNA_NAME" IconString="cult_hittite" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HITTITE_HAPALKI" ProgressionTree="TREE_CIVICS_AQ_HITTITE" Cost="250" Name="LOC_NODE_CIVIC_AQ_HITTITE_HAPALKI_NAME" IconString="cult_hittite" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU" ProgressionTree="TREE_CIVICS_AQ_HITTITE" Cost="250" Name="LOC_NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU_NAME" IconString="cult_hittite" />
+
+	</ProgressionTreeNodes>
+	<ProgressionTreeNodeUnlocks>
+		<!-- NODE_CIVIC_AQ_HITTITE_LABARNA -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HITTITE_HAPALKI" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_HITTITE_LABARNA_CAP_INCREASE" UnlockDepth="2"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HITTITE_LABARNA" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_HUWASI" UnlockDepth="1" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HITTITE_HAPALKI" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_HITTITE_LABARNA_FLAT_PRODUCTION" UnlockDepth="2"/>
+		
+		<!-- NODE_CIVIC_AQ_HITTITE_HAPALKI -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HITTITE_LABARNA" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_GISKINIT" UnlockDepth="1" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HITTITE_HAPALKI" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_HITTITE_HAPALKI_RESOURCE_CAP" UnlockDepth="1"/>
+
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HITTITE_HAPALKI" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_HITTITE_HAPALKI_IRON_CITY_FLAT_PRODUCTION" UnlockDepth="2"/>
+
+
+		
+		<!-- NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU" TargetKind="KIND_MODIFIER" TargetType="NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU_MOD" UnlockDepth="1"/>
+
+	</ProgressionTreeNodeUnlocks>
+	<ProgressionTreePrereqs>
+		<Row Node="NODE_CIVIC_AQ_HITTITE_HAPALKI" PrereqNode="NODE_CIVIC_AQ_HITTITE_LABARNA"/>
+		<Row Node="NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU" PrereqNode="NODE_CIVIC_AQ_HITTITE_HAPALKI"/>
+
+	</ProgressionTreePrereqs>
+	<ProgressionTree_Advisories>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HITTITE_LABARNA" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HITTITE_HAPALKI" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
+	</ProgressionTree_Advisories>
+	<UnitClass_Abilities>
+
+	</UnitClass_Abilities>
+	<UnitAbilities>
+
+	
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+
+	</UnitAbilityModifiers>
+
+</Database>

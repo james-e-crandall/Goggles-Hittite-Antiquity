@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<AiComponents>
+	</AiComponents>
+	<AiDefinitions>
+	</AiDefinitions>
+	<OpTeamRequirements>
+	</OpTeamRequirements>
+	<PseudoYields>
+	</PseudoYields>
+	<AiListTypes>
+		<!-- Hittite -->
+		<Row ListType="Hittite Unit Biases"/>
+		<Row ListType="Hittite Government Bias"/>
+		<Row ListType="Hittite Constructibles Biases" />
+		<Row ListType="Hittite Budget Biases" />
+		<Row ListType="Hittite PseudoYield Biases" />
+		<Row ListType="Hittite Tag Biases"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- Hittite -->
+		<Row ListType="Hittite Unit Biases" LeaderType="TRAIT_HITTITE" System="UnitBiases"/>
+		<Row ListType="Hittite Government Bias" LeaderType="TRAIT_HITTITE" System="GovernmentBiases"/>
+		<Row ListType="Hittite Constructibles Biases" LeaderType="TRAIT_HITTITE" System="ConstructibleBiases" />	
+		<Row ListType="Hittite Budget Biases" LeaderType="TRAIT_HITTITE" System="AiBudgetBiases"/>	
+		<Row ListType="Hittite PseudoYield Biases" LeaderType="TRAIT_HITTITE" System="PseudoYieldBiases"/>	
+		<Row ListType="Hittite Tag Biases" LeaderType="TRAIT_HITTITE" System="TagBiases"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- Hittite -->
+		<Row ListType="Hittite Constructibles Biases" Item="BUILDING_HUWASI" Value="200" />
+		<Row ListType="Hittite Constructibles Biases" Item="BUILDING_GISKINTI" Value="200" />
+		<Row ListType="Hittite Constructibles Biases" Item="WONDER_YAZILIKAYA" Value="50"/>
+		<Row ListType="Hittite Unit Biases" Item="UNIT_GOLDEN_SPEARMAN" Value="50"/>
+		<Row ListType="Hittite Unit Biases" Item="UNIT_GOLDEN_SPEARMAN_2" Value="50"/>
+		<Row ListType="Hittite Unit Biases" Item="UNIT_GOLDEN_SPEARMAN_3" Value="50"/>
+		<Row ListType="Hittite Unit Biases" Item="UNIT_GOLDEN_CHARIOT" Value="50"/>
+		<Row ListType="Hittite Unit Biases" Item="UNIT_GOLDEN_CHARIOT_2" Value="50"/>
+	</AiFavoredItems>
+	<!-- City Strategies -->
+	<Strategies>
+	</Strategies>
+	<StrategyConditions>
+	</StrategyConditions>
+	<Strategy_Priorities>
+	</Strategy_Priorities>
+	<AiListTypes>
+	</AiListTypes>
+	<AiLists>
+	</AiLists>
+	<AiFavoredItems>
+	</AiFavoredItems>
+</Database>

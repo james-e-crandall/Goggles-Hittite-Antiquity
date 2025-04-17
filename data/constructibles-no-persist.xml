@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<!-- Civ Abilities -->
+	
+	<Adjacency_YieldChanges>
+		<Row ID="HittiteResourceWildcardFood" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentResource="true"/>
+		<Row ID="HittiteResourceWildcardGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentResource="true"/>
+	</Adjacency_YieldChanges>
+	<Constructible_WildcardAdjacencies>
+		<Row YieldChangeId="HittiteResourceWildcardFood" RequiresActivation="true" ConstructibleClass="IMPROVEMENT"/>
+		<Row YieldChangeId="HittiteResourceWildcardGold" RequiresActivation="true" ConstructibleClass="BUILDING"/>
+	</Constructible_WildcardAdjacencies>
+	<Warehouse_YieldChanges>
+		<Row ID="HittiteResourceGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="1" ResourceInCity="true"/>
+	</Warehouse_YieldChanges>
+
+
+
+
+
+
+</Database>

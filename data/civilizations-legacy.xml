@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Major Civs -->
+		<Row Type="TRAIT_HITTITE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_HITTITE_2" Kind="KIND_TRAIT"/>
+		<Row Type="CIVILIZATION_HITTITE" Kind="KIND_CIVILIZATION"/>
+	</Types>
+	<LegacyCivilizations>
+		<!-- Full Civs -->
+		<Row CivilizationType="CIVILIZATION_HITTITE" Name="LOC_CIVILIZATION_HITTITE_NAME" FullName="LOC_CIVILIZATION_HITTITE_FULLNAME" Adjective="LOC_CIVILIZATION_HITTITE_ADJECTIVE" Age="AGE_ANTIQUITY"/>
+	</LegacyCivilizations>
+	<LegacyCivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_HITTITE" TraitType="TRAIT_HITTITE"/>
+	</LegacyCivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_HITTITE" InternalOnly="true"/>
+		<Row TraitType="TRAIT_HITTITE_2" InternalOnly="true"/>
+	</Traits>
+	<LegacyLeaderCivPriorities>
+		<Row Leader="LEADER_HATSHEPSUT" CivilizationType="CIVILIZATION_HITTITE"/>
+		<Row Leader="LEADER_XERXES" CivilizationType="CIVILIZATION_HITTITE"/>
+	</LegacyLeaderCivPriorities>
+</Database>
