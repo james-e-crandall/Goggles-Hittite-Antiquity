@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+    <!-- TRADITION_HITTITE_RITUAL_PITS -->
+	<Modifier id="TRADITION_HITTITE_RITUAL_PITS_MOD_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">HittiteRitualPitsClayPitsCulture, HittiteRitualPitsMineCulture, HittiteRitualPitsMineResouceCulture, HittiteRitualPitsQuarryCulture</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_HITTITE_RITUAL_PITS_NAME</Argument>
+	</Modifier>
+	<Modifier id="TRADITION_HITTITE_RITUAL_PITS_MOD_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">HittiteRitualPitsClayPitsProudction, HittiteRitualPitsMineProudction, HittiteRitualPitsMineResouceProudction, HittiteRitualPitsQuarryProudction</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_HITTITE_RITUAL_PITS_NAME</Argument>
+		<String context="Description">LOC_TRADITION_HITTITE_RITUAL_PITS_MOD_PRODUCTION_DESCRIPTION</String>
+	</Modifier>
+
+    <!-- TRADITION_HITTITE_GIFTS_OF_THE_STORM_GOD -->
+
+
+    <!-- TRADITION_HITTITE_OATH_OF_LOYALTY -->
+	<Modifier id="TRADITION_HITTITE_OATH_OF_LOYALTY_PACKED_UNITS" collection="COLLECTION_COMMANDER_PACKED_UNITS" effect="EFFECT_UNIT_ADJUST_PLAYER_YIELD">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Description">LOC_TRADITION_HITTITE_OATH_OF_LOYALTY_PACKED_UNITS_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="TRADITION_HITTITE_OATH_OF_LOYALTY_STATIONED_ON_DISTRICT" collection="COLLECTION_UNIT_OCCUPIED_CITY" effect="EFFECT_CITY_ADJUST_YIELD">
+		<OwnerRequirements>
+			<Requirement type="REQUIREMENT_UNIT_IS_STATIONED_ON_DISTRICT"/>
+		</OwnerRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Percent">25</Argument>
+		<String context="Description">LOC_TRADITION_HITTITE_OATH_OF_LOYALTY_STATIONED_ON_DISTRICT_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- TRADITION_HITTITE_PANKUS -->
+	<Modifier id="TRADITION_HITTITE_PANKUS_MOD_TOWNS" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="Imported">false</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_HITTITE_PANKUS_NAME</Argument>
+		<String context="Description">LOC_TRADITION_HITTITE_PANKUS_MOD_TOWNS_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="TRADITION_HITTITE_PANKUS_MOD_CITIES" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Imported">false</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_HITTITE_PANKUS_NAME</Argument>
+		<String context="Description">LOC_TRADITION_HITTITE_PANKUS_MOD_CITIES_DESCRIPTION</String>
+	</Modifier>
+
+</GameEffects>

@@ -32,14 +32,26 @@
             <!-- let other mods override the yield banner -->
             <ModInUse>ged-ynamp</ModInUse>
         </Criteria>
+        <Criteria all="true" id="friedrich-xerxes-alt-enable">
+            <!-- let other mods override the yield banner -->
+            <ModInUse>friedrich-xerxes-alt</ModInUse>
+        </Criteria>
 	</ActionCriteria>
 	<ActionGroups>
 		<!-- Optional compatability -->
-		<ActionGroup id="base-game-main-ged-ynamp" scope="game" criteria="ged-ynamp-enable">
+		<ActionGroup id="goggles-ged-ynamp" scope="game" criteria="ged-ynamp-enable">
 			<!-- ynamp compatability -->
 			<Actions>
                 <UpdateDatabase>
 					<Item>ynamp/data/greatest-earth.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="goggles-friedrich-xerxes-alt-enable" scope="game" criteria="friedrich-xerxes-alt-enable">
+			<!-- ynamp compatability -->
+			<Actions>
+                <UpdateDatabase>
+					<Item>friedrich-xerxes-alt/civilizations-legacy.xml</Item>
                 </UpdateDatabase>
             </Actions>
 		</ActionGroup>
