@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--HITTITE-->
+		<Row Tag="LOC_CITIZEN_HITTITE_MALE_1">
+			<Text>Anittas</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_MALE_2">
+			<Text>Arnuwandas</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_MALE_3">
+			<Text>Hattusilis</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_MALE_4">
+			<Text>Khattasulis</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_MALE_5">
+			<Text>Katuzili</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_MALE_6">
+			<Text>Lubarna</Text>
+		</Row>	
+		<Row Tag="LOC_CITIZEN_HITTITE_MALE_7">
+			<Text>Manapa-Tarhunda</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_MALE_8">
+			<Text>Mursilis</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_MALE_9">
+			<Text>Muwatallis</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_MALE_10">
+			<Text>Piyamaradu</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_FEMALE_1">
+			<Text>Arinna</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_FEMALE_2">
+			<Text>Estan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_FEMALE_3">
+			<Text>Istustaya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_FEMALE_4">
+			<Text>Papaya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_FEMALE_5">
+			<Text>Wurusemu</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_FEMALE_6">
+			<Text>Piptaruwasseni</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_FEMALE_7">
+			<Text>Anniwiyanni</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_FEMALE_8">
+			<Text>Azmassiski</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_FEMALE_9">
+			<Text>Siwaskuniyan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HITTITE_FEMALE_10">
+			<Text>Aspunawiya</Text>
+		</Row>
+	</EnglishText>
+</Database>

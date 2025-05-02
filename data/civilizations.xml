@@ -16,7 +16,8 @@
 		<Row TraitType="TRAIT_HITTITE_ABILITY" Name="LOC_TRAIT_HITTITE_ABILITY_NAME" Description="LOC_TRAIT_HITTITE_ABILITY_DESCRIPTION" InternalOnly="true"/>
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_HITTITE_ABILITY" ModifierId="MOD_HITTITE_FORBID_CITIES_FROM_TOWNS"/>
+		<Row TraitType="TRAIT_HITTITE_ABILITY" ModifierId="MOD_TRAIT_HITTITE_ABILITY_RESOURCE_GOLD"/>
+		<Row TraitType="TRAIT_HITTITE_ABILITY" ModifierId="MOD_TRAIT_HITTITE_ABILITY_RESOURCE_WILDCARD"/>
 	</TraitModifiers>
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_HITTITE" TraitType="TRAIT_ANTIQUITY_CIV"/>
@@ -29,7 +30,8 @@
 	<LeaderCivPriorities>
 		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
 		<Row Leader="LEADER_HATSHEPSUT" Civilization="CIVILIZATION_HITTITE" Priority="2"/>
-		<Row Leader="LEADER_HATSHEPSUT" Civilization="LEADER_XERXES" Priority="2"/>
+		<Row Leader="LEADER_XERXES" Civilization="CIVILIZATION_HITTITE" Priority="2"/>
+		<Row Leader="LEADER_XERXES_ALT" Civilization="CIVILIZATION_HITTITE" Priority="2"/>
 	</LeaderCivPriorities>
 	<CityNames>
 		<!--HITTITE-->
@@ -55,10 +57,21 @@
 		<Row CivilizationType="CIVILIZATION_HITTITE" CityName="LOC_CITY_NAME_HITTITE20"/>
 		<Row CivilizationType="CIVILIZATION_HITTITE" CityName="LOC_CITY_NAME_HITTITE21"/>
 		<Row CivilizationType="CIVILIZATION_HITTITE" CityName="LOC_CITY_NAME_HITTITE22"/>
+		<Row CivilizationType="CIVILIZATION_HITTITE" CityName="LOC_CITY_NAME_HITTITE23"/>
+		<Row CivilizationType="CIVILIZATION_HITTITE" CityName="LOC_CITY_NAME_HITTITE24"/>
+		<Row CivilizationType="CIVILIZATION_HITTITE" CityName="LOC_CITY_NAME_HITTITE25"/>
+		<Row CivilizationType="CIVILIZATION_HITTITE" CityName="LOC_CITY_NAME_HITTITE26"/>
+		<Row CivilizationType="CIVILIZATION_HITTITE" CityName="LOC_CITY_NAME_HITTITE27"/>
+		<Row CivilizationType="CIVILIZATION_HITTITE" CityName="LOC_CITY_NAME_HITTITE28"/>
+		<Row CivilizationType="CIVILIZATION_HITTITE" CityName="LOC_CITY_NAME_HITTITE29"/>
+		<Row CivilizationType="CIVILIZATION_HITTITE" CityName="LOC_CITY_NAME_HITTITE30"/>
 	</CityNames>
-	<StartBiasAdjacentToCoasts>
-		<Row CivilizationType="CIVILIZATION_HITTITE" Score="150"/>
-	</StartBiasAdjacentToCoasts>
+	<StartBiasBiomes>
+		<Row CivilizationType="CIVILIZATION_HITTITE" BiomeType="BIOME_GRASSLAND" Score="5"/>
+	</StartBiasBiomes>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_HITTITE" TerrainType="TERRAIN_FLAT" Score="15"/>
+	</StartBiasTerrains>
 	<VisArt_CivilizationBuildingCultures>
 		<Row CivilizationType="CIVILIZATION_HITTITE" BuildingCulture="BUILDING_CULTURE_MID"/>
 		<Row CivilizationType="CIVILIZATION_HITTITE" BuildingCulture="ANT_MUD"/>

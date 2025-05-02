@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_WONDER_YAZILIKAYA_NAME">
+			<Text>Yazilikaya</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_YAZILIKAYA_DESCRIPTION">
+			<Text>{LOC_WONDER_YAZILIKAYA_TOOLTIP}</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_YAZILIKAYA_TOOLTIP">
+			<Text>For each different Resource assigned to a Town, reduce its upgrade cost into a City by 5%. All Towns can support +1 Resource. Must be placed on Rough Terrain, adjacent to a Resource.</Text>
+		</Row>
+		<Row Tag="LOC_QUOTE_WONDER_YAZILIKAYA">
+			<Text>Whoever after me becomes king resettles Hattusas, let the Stormgod of the Sky strike him!</Text>
+		</Row>
+		<Row Tag="LOC_QUOTE_AUTHOR_WONDER_YAZILIKAYA">
+			<Text>King Anitta from Kussara</Text>
+		</Row>
+
+
+    </EnglishText>
+</Database>

@@ -13,8 +13,12 @@
 	</Modifier>
 
     <!-- TRADITION_HITTITE_GIFTS_OF_THE_STORM_GOD -->
-
-
+	<Modifier id="TRADITION_HITTITE_GIFTS_OF_THE_STORM_GOD_MOD_HAPPINESS_UNASSIGNED_RESOURCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Unassigned">true</Argument>
+	</Modifier>
+	
     <!-- TRADITION_HITTITE_OATH_OF_LOYALTY -->
 	<Modifier id="TRADITION_HITTITE_OATH_OF_LOYALTY_PACKED_UNITS" collection="COLLECTION_COMMANDER_PACKED_UNITS" effect="EFFECT_UNIT_ADJUST_PLAYER_YIELD">
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>

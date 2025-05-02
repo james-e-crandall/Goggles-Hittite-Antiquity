@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+
+	</Types>
+	<TypeQuotes>
+	</TypeQuotes>
+	<ProgressionTreeNodes>
+
+	</ProgressionTreeNodes>
+	<ProgressionTreeNodeUnlocks>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_BRONZE_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_GOLDEN_SPEARMAN_2" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_GOLDEN_SPEARMAN_3" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_WHEEL" TargetKind="KIND_UNIT" TargetType="UNIT_GOLDEN_CHARIOT" UnlockDepth="1" RequiredTraitType="TRAIT_ATLANTIS"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_GOLDEN_CHARIOT_2" UnlockDepth="1" RequiredTraitType="TRAIT_ATLANTIS"/>
+	</ProgressionTreeNodeUnlocks>
+	<ProgressionTreePrereqs>
+
+	</ProgressionTreePrereqs>
+	<ProgressionTree_Advisories>
+
+	</ProgressionTree_Advisories>
+</Database>

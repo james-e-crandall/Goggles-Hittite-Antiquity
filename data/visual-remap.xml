@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+    <VisualRemaps>
+        <Row>
+            <ID>REMAP_UNIT_GOLDEN_SPEARMAN</ID>
+            <DisplayName>LOC_UNIT_GOLDEN_SPEARMAN_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_GOLDEN_SPEARMAN</From>
+            <To>UNIT_WARRIOR</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_GOLDEN_SPEARMAN_2</ID>
+            <DisplayName>LOC_UNIT_GOLDEN_SPEARMAN_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_GOLDEN_SPEARMAN_2</From>
+            <To>UNIT_SPEARMAN</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_GOLDEN_SPEARMAN_3</ID>
+            <DisplayName>LOC_UNIT_GOLDEN_SPEARMAN_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_GOLDEN_SPEARMAN_3</From>
+            <To>UNIT_PHALANX</To>
+        </Row>
+             
+        <Row>
+            <ID>REMAP_UNIT_GOLDEN_CHARIOT</ID>
+            <DisplayName>LOC_UNIT_GOLDEN_CHARIOT_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_GOLDEN_CHARIOT</From>
+            <To>UNIT_CHARIOT</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_GOLDEN_CHARIOT_2</ID>
+            <DisplayName>LOC_UNIT_GOLDEN_CHARIOT_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_GOLDEN_CHARIOT_2</From>
+            <To>UNIT_CHARIOT</To>
+        </Row>
+
+    </VisualRemaps>
+</Database>
+<!-- generated with https://github.com/izica/civ7-modding-tools -->

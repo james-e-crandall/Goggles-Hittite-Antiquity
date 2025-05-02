@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="WONDER_YAZILIKAYA" Kind="KIND_CONSTRUCTIBLE"/>
+    </Types>
+	<!-- Wonders -->
+	<TypeQuotes>
+		<Row Type="WONDER_YAZILIKAYA" Quote="LOC_QUOTE_WONDER_YAZILIKAYA" QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_YAZILIKAYA" QuoteAudio="VO_Quote_Yazilikaya"/>
+    </TypeQuotes>
+	<Constructibles>
+		<Row ConstructibleType="WONDER_YAZILIKAYA" Name="LOC_WONDER_YAZILIKAYA_NAME" Description="LOC_WONDER_YAZILIKAYA_DESCRIPTION" Tooltip="LOC_WONDER_YAZILIKAYA_TOOLTIP" ConstructibleClass="WONDER" Cost="275" Population="0" ImmuneDamage="true" Age="AGE_ANTIQUITY" AdjacentTerrain="TERRAIN_HILL" RequiresUnlock="true" />
+    </Constructibles>
+    <Wonders>
+		<Row ConstructibleType="WONDER_YAZILIKAYA" MaxWorldInstances="1"  />    
+	</Wonders>
+	<Constructible_ValidDistricts>
+		<Row ConstructibleType="WONDER_YAZILIKAYA" DistrictType="DISTRICT_WONDER"/>
+    </Constructible_ValidDistricts>
+	<Constructible_YieldChanges>
+		<Row ConstructibleType="WONDER_YAZILIKAYA" YieldType="YIELD_GOLD" YieldChange="3"/>
+    </Constructible_YieldChanges>
+	<ConstructibleModifiers>
+		<!-- <Row ConstructibleType="WONDER_YAZILIKAYA" ModifierId="WONDER_YAZILIKAYA_MOD"/> -->
+	</ConstructibleModifiers>
+    <Constructible_Advisories>
+		<Row ConstructibleType="WONDER_YAZILIKAYA" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+    </Constructible_Advisories>
+</Database>

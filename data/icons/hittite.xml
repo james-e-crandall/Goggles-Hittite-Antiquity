@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Database>
+    <IconDefinitions>
+        <!-- Civ Symbol-->
+        <Row>
+            <ID>CIVILIZATION_HITTITE</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/civ_sym_hittite</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+		<Row>
+			<ID>ICON_CIVILIZATION_HITTITE</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/civ_sym_hittite</Path>
+		</Row>
+        <!-- Loadscreen -->
+		<Row>
+			<ID>CIVILIZATION_HITTITE</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/goggles_civ_hittite/icons/lsbg_hittite_1080</Path>
+			<IconSize>1080</IconSize>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_HITTITE</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/goggles_civ_hittite/icons/lsbg_hittite_720</Path>
+			<IconSize>720</IconSize>
+		</Row>
+        <!-- Culture -->
+        <Row>
+            <ID>cult_hittite</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/cult_hittite.png</Path>
+        </Row> 
+        <!-- wonder -->
+		<Row>
+			<ID>WONDER_YAZILIKAYA</ID>
+			<Path>fs://game/goggles_civ_hittite/icons/wondericon_yazilikaya.png</Path>
+		</Row>
+
+        <!-- UU AND UI -->
+        <Row>
+            <ID>UNIT_GOLDEN_SPEARMAN</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/unitflag_golden_spearman.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_GOLDEN_SPEARMAN_2</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/unitflag_golden_spearman.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_GOLDEN_SPEARMAN_3</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/unitflag_golden_spearman.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+
+        <Row>
+            <ID>UNIT_GOLDEN_CHARIOT</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/unitflag_golden_chariot.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_GOLDEN_CHARIOT_2</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/unitflag_golden_chariot.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+    </IconDefinitions>
+</Database>

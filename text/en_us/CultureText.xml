@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_TREE_CIVICS_AQ_HITTITE_NAME">
+			<Text>Hittite Civics</Text>
+		</Row>
+
+		<!-- NODE_CIVIC_AQ_HITTITE_LABARNA -->
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_LABARNA_QUOTE">
+			<Text>Labarna</Text>
+		</Row>
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_LABARNA_QUOTE_AUTHOR">
+			<Text>Labarna</Text>
+		</Row>
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_LABARNA_NAME">
+			<Text>Labarna</Text>
+		</Row>
+
+		
+		<!-- NODE_CIVIC_AQ_HITTITE_HAPALKI -->
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_HAPALKI_QUOTE">
+			<Text>Hapalki</Text>
+		</Row>
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_HAPALKI_QUOTE_AUTHOR">
+			<Text>Hapalki</Text>
+		</Row>
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_HAPALKI_NAME">
+			<Text>Hapalki</Text>
+		</Row>
+
+		<!-- NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU -->
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU_QUOTE">
+			<Text>Edict of Telepinu</Text>
+		</Row>
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU_QUOTE_AUTHOR">
+			<Text>Edict of Telepinu</Text>
+		</Row>
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU_NAME">
+			<Text>Edict of Telepinu</Text>
+		</Row>
+	</EnglishText>
+</Database>

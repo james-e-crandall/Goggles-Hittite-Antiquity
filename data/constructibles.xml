@@ -70,17 +70,17 @@
 	<Constructible_Adjacencies>
 		<!-- Civ Uniques -->
 		<Row ConstructibleType="BUILDING_HUWASI" YieldChangeId="HuwasiResouceFood"/>
-		<Row ConstructibleType="BUILDING_GISKINIT" YieldChangeId="GiskintiMineResourceHappiness"/>
+		
 
 		<Row ConstructibleType="BUILDING_ANCIENT_WALLS" YieldChangeId="PotkopResourceFood"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 		<!-- Civ Uniques -->
 		<Row ID="HuwasiResouceFood" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentResource="true"/>
-		<Row ID="HittitePerunaHatraiCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_Culture" YieldChange="1" TilesRequired="2" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_HILL"/>
+		<Row ID="HittitePerunaHatraiCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="2" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_HILL"/>
 	</Adjacency_YieldChanges>
 	<Constructible_WarehouseYields>
-
+		<Row ConstructibleType="BUILDING_GISKINIT" YieldChangeId="GiskintiMineResourceHappiness"/>
 	</Constructible_WarehouseYields>
 	<Warehouse_YieldChanges>
 		<Row ID="GiskintiMineResourceHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>

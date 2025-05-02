@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_HITTITE" Kind="KIND_UNLOCK"/>
+
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HITTITE"/>
+		
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HITTITE" Name="LOC_CIVILIZATION_HITTITE_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_HITTITE" CivUnlock="true"/>
+
+	</UnlockRewards>
+	<UnlockRequirements>
+	
+	</UnlockRequirements>
+	<UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HITTITE" ConfigurationValue="CIVILIZATION_HITTITE"/>
+	</UnlockConfigurationValues>
+</Database>

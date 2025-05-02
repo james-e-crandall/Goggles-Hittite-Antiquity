@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- Units  -->
+	<Modifier id="HITTITE_MOD_CHECK_FOR_TERRAIN_HILL" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES">
+				<Argument name="BiomeType">TERRAIN_HILL</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ATTACH_HITTITE_MOD_CHECK_FOR_TERRAIN_HILL</Argument>
+	</Modifier>
+
+	<Modifier id="ATTACH_HITTITE_MOD_CHECK_FOR_TERRAIN_HILL" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_UNIT_IGNORE_ZOC">
+		<Argument name="Ignore">true</Argument>
+	</Modifier>
+
+	<Modifier id="HITTITE_MOD_CHECK_DISTRICT_CLASS_URBAN" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+				<Argument name="DistrictClass">CITYCENTER, URBAN</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ATTACH_HITTITE_MOD_CHECK_DISTRICT_CLASS_URBAN</Argument>
+	</Modifier>
+
+	<Modifier id="ATTACH_HITTITE_MOD_CHECK_DISTRICT_CLASS_URBAN" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">1</Argument>
+		<String context="Preview">LOC_ABILITY_HITTITE_URBAN_PREVIEW</String>
+	</Modifier>
+
+	<Modifier id="HITTITE_MOD_CHECK_DISTRICT_CLASS_RURAL" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+				<Argument name="DistrictClass">RURAL</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ATTACH_HITTITE_MOD_CHECK_DISTRICT_CLASS_URBAN</Argument>
+	</Modifier>
+
+	<Modifier id="ATTACH_HITTITE_MOD_CHECK_DISTRICT_CLASS_RURAL" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">1</Argument>
+		<String context="Preview">LOC_ABILITY_HITTITE_RURAL_PREVIEW</String>
+	</Modifier>
+
+</GameEffects>

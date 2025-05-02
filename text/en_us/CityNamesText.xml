@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--HITTITE-->
+		
+
+
+
+		<Row Tag="LOC_CITY_NAME_HITTITE1">
+			<Text>Hattuša</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE2">
+			<Text>Neša</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE3">
+			<Text>Taršiši</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE4">
+			<Text>Tarhuntašša</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE5">
+			<Text>Arinna</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE6">
+			<Text>Zalpa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE7">
+			<Text>Šamuḫa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE8">
+			<Text>Carchemish</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE9">
+			<Text>Harran</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE10">
+			<Text>Zalpuwa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE11">
+			<Text>Kuššara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE12">
+			<Text>Narak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE13">
+			<Text>Qadeš</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE14">
+			<Text>Adaniya</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE15">
+			<Text>Zaippalanda</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE16">
+			<Text>Alalakh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE17">
+			<Text>Hubišna</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE18">
+			<Text>Kummanni</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE19">
+			<Text>Gurgum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE20">
+			<Text>Azatiwataya</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE21">
+			<Text>Dalawa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE22">
+			<Text>Nampigi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE23">
+			<Text>Tabikka</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE24">
+			<Text>Šapinuwa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE25">
+			<Text>Purušanda</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE26">
+			<Text>Lawzaantiya</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE27">
+			<Text>Katapa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE28">
+			<Text>Larawanda</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE29">
+			<Text>Amatuana</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HITTITE30">
+			<Text>Ura</Text>
+		</Row>
+	</EnglishText>
+</Database>

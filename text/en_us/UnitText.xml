@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Unit Abilities -->
+
+		<!-- Greece Unique Units -->
+		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_NAME">
+			<Text>Golden Spearman</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_BASE_DESCRIPTION">
+			<Text>Hittite Unique Golden Spearman.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_DESCRIPTION">
+			<Text>Hittite Unique Golden Spearman.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_2_DESCRIPTION">
+			<Text>Tier 2 Hittite Unique Golden Spearman.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_3_DESCRIPTION">
+			<Text>Tier 3 Hittite Unique Golden Spearman.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_NAME">
+			<Text>Golden Chariot</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_BASE_DESCRIPTION">
+			<Text>Hittite Unique Golden Chariot.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_DESCRIPTION">
+			<Text>Hittite Unique Golden Chariot.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_2_DESCRIPTION">
+			<Text>Tier 2 Hittite Unique Golden Chariot.</Text>
+		</Row>
+
+	</EnglishText>
+</Database>

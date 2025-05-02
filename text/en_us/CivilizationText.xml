@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_CIVILIZATION_HITTITE_NAME">
+			<Text>Hittite</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_HITTITE_FULLNAME">
+			<Text>Land of Hatti</Text>
+		</Row>
+
+		<Row Tag="LOC_MOD_CODE_OF_LAWS_REVEAL_CIV_CULTURE_TREE_HITTITE_DESCRIPTION">
+			<Text>Hittite Antiquity Age Civilization</Text>
+		</Row>
+
+		<!--Civilization Adjectives-->
+		<Row Tag="LOC_CIVILIZATION_HITTITE_ADJECTIVE">
+			<Text>Hittites</Text>
+			<Gender>Masculine:an</Gender>
+		</Row>
+
+		<!-- Ability-->
+		<Row Tag="LOC_TRAIT_HITTITE_ABILITY_NAME">
+			<Text>Arinnitta's Embrace</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_HITTITE_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI][B]Resouces[/B] have [B]+1 [icon:YIELD_GOLD]Gold[/B]. [B]Buildings[/B] and [B]Improvements[/B] have [B]+1 [icon:YIELD_GOLD]Gold[/B] with [B]Resouces[/B][LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Temple of Posidon[/B].[/LIST]</Text>
+		</Row>
+		
+	</EnglishText>
+</Database>

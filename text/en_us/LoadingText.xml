@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_HITTITE">
+			<Text>Between the 15th and 13th centuries BC, the Hittites were one of the dominant powers of the Near East, coming into conflict with the New Kingdom of Egypt, the Middle Assyrian Empire, and the Empire of Mitanni. By the 12th century BC, much of the Hittite Empire had been annexed by the Middle Assyrian Empire, with the remainder being sacked by Phrygian newcomers to the region.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INTRO_HITTITE">
+			<Text>These are the words of the Sun1 Mursilis, the great king, the king of the Hatti land, the valiant, the favourite of the storm-god, the son of Suppiluliumas, the great king, the king of the Hatti land, the valiant.</Text>
+		</Row>
+	</EnglishText>
+</Database>

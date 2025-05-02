@@ -47,14 +47,6 @@
                 </UpdateDatabase>
             </Actions>
 		</ActionGroup>
-		<ActionGroup id="goggles-friedrich-xerxes-alt-enable" scope="game" criteria="friedrich-xerxes-alt-enable">
-			<!-- ynamp compatability -->
-			<Actions>
-                <UpdateDatabase>
-					<Item>friedrich-xerxes-alt/civilizations-legacy.xml</Item>
-                </UpdateDatabase>
-            </Actions>
-		</ActionGroup>
 		<!-- HITTITE -->
         <ActionGroup id="goggles-mod-hittite" scope="game" criteria="always">
             <Actions>
@@ -124,7 +116,6 @@
 					<Item>data/units-gameeffects.xml</Item>
 					<Item>data/units.xml</Item>
 					<Item>data/progression-trees-tech-common.xml</Item>
-					<Item>data/greatworks.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/LoadingText.xml</Item>
