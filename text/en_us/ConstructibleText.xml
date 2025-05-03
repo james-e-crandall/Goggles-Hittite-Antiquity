@@ -11,13 +11,13 @@
 		<Row Tag="LOC_BUILDING_HUWASI_TOOLTIP">
 			<Text>+3 [icon:YIELD_HAPPINESS]Happiness. Adds Food for each adjacent Resource. Can only be placed on Rough Terrain.</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_GISKINIT_NAME">
+		<Row Tag="LOC_BUILDING_GISKINTI_NAME">
 			<Text>Giškinti (Smelter)</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_GISKINIT_DESCRIPTION">
+		<Row Tag="LOC_BUILDING_GISKINTI_DESCRIPTION">
 			<Text>+2 [icon:YIELD_PRODUCTION]Production. Adds Happiness to each Mined Resource assigned to the city. Can only be placed on Rough Terrain. </Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_GISKINIT_TOOLTIP">
+		<Row Tag="LOC_BUILDING_GISKINTI_TOOLTIP">
 			<Text>+2 [icon:YIELD_PRODUCTION]Production. Adds Happiness to each Mined Resource assigned to the city. Can only be placed on Rough Terrain. </Text>
 		</Row>
 		<!-- QUARTER -->

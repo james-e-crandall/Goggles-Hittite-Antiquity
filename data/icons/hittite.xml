@@ -29,6 +29,17 @@
             <ID>cult_hittite</ID>
             <Path>fs://game/goggles_civ_hittite/icons/cult_hittite.png</Path>
         </Row> 
+        <!-- constructables -->
+        <Row>
+            <ID>BUILDING_HUWASI</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/buildicon_huwasi.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>BUILDING_GISKINTI</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/buildicon_giskinti.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
         <!-- wonder -->
 		<Row>
 			<ID>WONDER_YAZILIKAYA</ID>

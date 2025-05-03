@@ -3,7 +3,7 @@
 	<Types>
 		<!-- Civ Unique Buildings -->
 		<Row Type="BUILDING_HUWASI" Kind="KIND_CONSTRUCTIBLE"/>
-		<Row Type="BUILDING_GISKINIT" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_GISKINTI" Kind="KIND_CONSTRUCTIBLE"/>
 	</Types>
 	<TypeQuotes>
 	</TypeQuotes>
@@ -12,12 +12,12 @@
 	<Constructibles>
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_HUWASI" Name="LOC_BUILDING_HUWASI_NAME" Description="LOC_BUILDING_HUWASI_DESCRIPTION" Tooltip="LOC_BUILDING_HUWASI_TOOLTIP" ConstructibleClass="BUILDING" Cost="90" Population="1" Age="AGE_ANTIQUITY"/>
-		<Row ConstructibleType="BUILDING_GISKINIT" Name="LOC_BUILDING_GISKINIT_NAME" Description="LOC_BUILDING_GISKINIT_DESCRIPTION" Tooltip="LOC_BUILDING_GISKINIT_TOOLTIP" ConstructibleClass="BUILDING" Cost="120" Population="1" Age="AGE_ANTIQUITY"/>
+		<Row ConstructibleType="BUILDING_GISKINTI" Name="LOC_BUILDING_GISKINTI_NAME" Description="LOC_BUILDING_GISKINTI_DESCRIPTION" Tooltip="LOC_BUILDING_GISKINTI_TOOLTIP" ConstructibleClass="BUILDING" Cost="120" Population="1" Age="AGE_ANTIQUITY"/>
 	</Constructibles>
 	<Buildings>
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_HUWASI" Movable="false" TraitType="TRAIT_HITTITE"/>
-		<Row ConstructibleType="BUILDING_GISKINIT" Movable="false" TraitType="TRAIT_HITTITE"/>
+		<Row ConstructibleType="BUILDING_GISKINTI" Movable="false" TraitType="TRAIT_HITTITE"/>
 	</Buildings>
 	<Improvements>
 
@@ -29,16 +29,16 @@
 		<Row Type="BUILDING_HUWASI" Tag="HAPPINESS"/>
 		<Row Type="BUILDING_HUWASI" Tag="UNIQUE"/>
 		<Row Type="BUILDING_HUWASI" Tag="AGELESS"/>
-		<Row Type="BUILDING_GISKINIT" Tag="PRODUCTION"/>
-		<Row Type="BUILDING_GISKINIT" Tag="UNIQUE"/>
-		<Row Type="BUILDING_GISKINIT" Tag="AGELESS"/>
+		<Row Type="BUILDING_GISKINTI" Tag="PRODUCTION"/>
+		<Row Type="BUILDING_GISKINTI" Tag="UNIQUE"/>
+		<Row Type="BUILDING_GISKINTI" Tag="AGELESS"/>
 	</TypeTags>
 	<Constructible_ValidDistricts>
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_HUWASI" DistrictType="DISTRICT_CITY_CENTER"/>
 		<Row ConstructibleType="BUILDING_HUWASI" DistrictType="DISTRICT_URBAN"/>
-		<Row ConstructibleType="BUILDING_GISKINIT" DistrictType="DISTRICT_CITY_CENTER"/>
-		<Row ConstructibleType="BUILDING_GISKINIT" DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="BUILDING_GISKINTI" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_GISKINTI" DistrictType="DISTRICT_URBAN"/>
 	</Constructible_ValidDistricts>
 	<District_FreeConstructibles>
 
@@ -49,7 +49,7 @@
 	</Constructible_InvalidAdjacentBiomes>
 	<Constructible_ValidTerrains>
 		<Row ConstructibleType="BUILDING_HUWASI" TerrainType="TERRAIN_HILL"/>
-		<Row ConstructibleType="BUILDING_GISKINIT" TerrainType="TERRAIN_HILL"/>
+		<Row ConstructibleType="BUILDING_GISKINTI" TerrainType="TERRAIN_HILL"/>
 	</Constructible_ValidTerrains>
 	<Constructible_RequiredFeatures>
 	</Constructible_RequiredFeatures>
@@ -60,12 +60,12 @@
 	<Constructible_YieldChanges>
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_HUWASI" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
-		<Row ConstructibleType="BUILDING_GISKINIT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row ConstructibleType="BUILDING_GISKINTI" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_HUWASI" YieldType="YIELD_GOLD" Amount="2"/>
-		<Row ConstructibleType="BUILDING_GISKINIT" YieldType="YIELD_GOLD" Amount="2"/>
+		<Row ConstructibleType="BUILDING_GISKINTI" YieldType="YIELD_GOLD" Amount="2"/>
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
 		<!-- Civ Uniques -->
@@ -80,7 +80,7 @@
 		<Row ID="HittitePerunaHatraiCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="2" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_HILL"/>
 	</Adjacency_YieldChanges>
 	<Constructible_WarehouseYields>
-		<Row ConstructibleType="BUILDING_GISKINIT" YieldChangeId="GiskintiMineResourceHappiness"/>
+		<Row ConstructibleType="BUILDING_GISKINTI" YieldChangeId="GiskintiMineResourceHappiness"/>
 	</Constructible_WarehouseYields>
 	<Warehouse_YieldChanges>
 		<Row ID="GiskintiMineResourceHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
@@ -102,12 +102,12 @@
 	<Constructible_Plunders>
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_HUWASI" PlunderType="PLUNDER_HEAL" Amount="30"/>
-		<Row ConstructibleType="BUILDING_GISKINIT" PlunderType="PLUNDER_HEAL" Amount="40"/>
+		<Row ConstructibleType="BUILDING_GISKINTI" PlunderType="PLUNDER_HEAL" Amount="40"/>
 	</Constructible_Plunders>
 	<ConstructibleModifiers>
 	</ConstructibleModifiers>
 	<UniqueQuarters>
-		<Row UniqueQuarterType="QUARTER_KUNTARRA" BuildingType1="BUILDING_HUWASI" BuildingType2="BUILDING_GISKINIT" Name="LOC_QUARTER_KUNTARRA_NAME" Description="LOC_QUARTER_KUNTARRA_DESCRIPTION" Tooltip="LOC_QUARTER_KUNTARRA_TOOLTIP" TraitType="TRAIT_HITTITE"/>
+		<Row UniqueQuarterType="QUARTER_KUNTARRA" BuildingType1="BUILDING_HUWASI" BuildingType2="BUILDING_GISKINTI" Name="LOC_QUARTER_KUNTARRA_NAME" Description="LOC_QUARTER_KUNTARRA_DESCRIPTION" Tooltip="LOC_QUARTER_KUNTARRA_TOOLTIP" TraitType="TRAIT_HITTITE"/>
 		
 	</UniqueQuarters>
 	<GameModifiers>
