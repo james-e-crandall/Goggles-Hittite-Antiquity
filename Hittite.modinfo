@@ -60,6 +60,7 @@
 					<Item>icons/civ_sym_hittite</Item>
                     <Item>icons/civ_sym_hittite.png</Item>
 					<Item>icons/cult_hittite.png</Item>
+					<Item>icons/wondericon_yazilikaya.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
                     <Item>data/icons/hittite.xml</Item>
@@ -102,6 +103,11 @@
 			<Actions>
 				<UpdateArt>
 				</UpdateArt>
+                <ImportFiles>
+					<Item>icons/unitflag_golden_spearman.png</Item>
+					<Item>icons/unitflag_golden_chariot.png</Item>
+					<Item>icons/unitflag_gal_mesedi.png</Item>
+                </ImportFiles>
 				<UpdateDatabase>
 					<Item>data/ai-antiquity.xml</Item>
 					<Item>data/unlocks-antiquity.xml</Item>
@@ -138,6 +144,10 @@
 					<Item>icons/civ_sym_hittite</Item>
                     <Item>icons/civ_sym_hittite.png</Item>
 					<Item>icons/cult_hittite.png</Item>
+					<Item>icons/wondericon_yazilikaya.png</Item>
+					<Item>icons/unitflag_golden_spearman.png</Item>
+					<Item>icons/unitflag_golden_chariot.png</Item>
+					<Item>icons/unitflag_gal_mesedi.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
                     <Item>data/icons/hittite.xml</Item>

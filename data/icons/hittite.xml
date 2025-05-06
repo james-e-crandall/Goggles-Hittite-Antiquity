@@ -73,5 +73,11 @@
             <Path>fs://game/goggles_civ_hittite/icons/unitflag_golden_chariot.png</Path>
             <Context>DEFAULT</Context>
         </Row>
+
+        <Row>
+            <ID>UNIT_GAL_MESEDI</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/unitflag_gal_mesedi.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
     </IconDefinitions>
 </Database>

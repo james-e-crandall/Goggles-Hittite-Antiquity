@@ -11,16 +11,20 @@
 		<Row ConstructibleType="WONDER_YAZILIKAYA" Name="LOC_WONDER_YAZILIKAYA_NAME" Description="LOC_WONDER_YAZILIKAYA_DESCRIPTION" Tooltip="LOC_WONDER_YAZILIKAYA_TOOLTIP" ConstructibleClass="WONDER" Cost="275" Population="0" ImmuneDamage="true" Age="AGE_ANTIQUITY" AdjacentTerrain="TERRAIN_HILL" RequiresUnlock="true" />
     </Constructibles>
     <Wonders>
-		<Row ConstructibleType="WONDER_YAZILIKAYA" MaxWorldInstances="1"  />    
+		<Row ConstructibleType="WONDER_YAZILIKAYA" MaxWorldInstances="1" AdjacentResource="RESOURCE_IRON" />    
 	</Wonders>
 	<Constructible_ValidDistricts>
-		<Row ConstructibleType="WONDER_YAZILIKAYA" DistrictType="DISTRICT_WONDER"/>
+		<Row ConstructibleType="WONDER_YAZILIKAYA" DistrictType="DISTRICT_WONDER"  />
     </Constructible_ValidDistricts>
+	<Constructible_ValidTerrains>
+		<Row ConstructibleType="WONDER_YAZILIKAYA" TerrainType="TERRAIN_HILL"/>
+	</Constructible_ValidTerrains>
 	<Constructible_YieldChanges>
 		<Row ConstructibleType="WONDER_YAZILIKAYA" YieldType="YIELD_GOLD" YieldChange="3"/>
     </Constructible_YieldChanges>
 	<ConstructibleModifiers>
-		<!-- <Row ConstructibleType="WONDER_YAZILIKAYA" ModifierId="WONDER_YAZILIKAYA_MOD"/> -->
+		<Row ConstructibleType="WONDER_YAZILIKAYA" ModifierId="WONDER_YAZILIKAYA_MOD_HAPPINESS_ON_BUILDING_CREATED"/>
+		<Row ConstructibleType="WONDER_YAZILIKAYA" ModifierId="WONDER_YAZILIKAYA_MOD_HAPPINESS_ON_WONDER_CREATED"/>
 	</ConstructibleModifiers>
     <Constructible_Advisories>
 		<Row ConstructibleType="WONDER_YAZILIKAYA" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>

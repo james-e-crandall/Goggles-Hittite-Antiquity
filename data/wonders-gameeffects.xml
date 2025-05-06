@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
+	<Modifier id="WONDER_YAZILIKAYA_MOD_HAPPINESS_ON_BUILDING_CREATED" collection="COLLECTION_OWNER" effect="TRIGGER_CITY_GRANT_YIELD_ON_CONSTRUCTIBLE_CREATED">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="PercentCost">50</Argument>
+		<Argument name="ConstructibleClass">BUILDING</Argument>
+		<String context="Description">LOC_WONDER_YAZILIKAYA_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="WONDER_YAZILIKAYA_MOD_HAPPINESS_ON_WONDER_CREATED" collection="COLLECTION_OWNER" effect="TRIGGER_CITY_GRANT_YIELD_ON_CONSTRUCTIBLE_CREATED">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="PercentCost">25</Argument>
+		<Argument name="ConstructibleClass">WONDER</Argument>
+		<String context="Description">LOC_WONDER_YAZILIKAYA_DESCRIPTION</String>
+	</Modifier>
 
+    
 </GameEffects>

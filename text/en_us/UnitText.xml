@@ -8,29 +8,50 @@
 			<Text>Golden Spearman</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_BASE_DESCRIPTION">
-			<Text>Hittite Unique Golden Spearman.</Text>
+			<Text>Hittite Unique Golden Spearman. +2 Combat Strength in Urban Districts.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_DESCRIPTION">
-			<Text>Hittite Unique Golden Spearman.</Text>
+			<Text>Hittite Unique Golden Spearman. +2 Combat Strength in Urban Districts.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_2_DESCRIPTION">
-			<Text>Tier 2 Hittite Unique Golden Spearman.</Text>
+			<Text>Tier 2 Hittite Unique Golden Spearman. +2 Combat Strength in Urban Districts.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_3_DESCRIPTION">
-			<Text>Tier 3 Hittite Unique Golden Spearman.</Text>
+			<Text>Tier 3 Hittite Unique Golden Spearman. +2 Combat Strength in Urban Districts.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_NAME">
 			<Text>Golden Chariot</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_BASE_DESCRIPTION">
-			<Text>Hittite Unique Golden Chariot.</Text>
+			<Text>Hittite Unique Golden Chariot. +2 Combat Strength in Rural Districts.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_DESCRIPTION">
-			<Text>Hittite Unique Golden Chariot.</Text>
+			<Text>Hittite Unique Golden Chariot. +2 Combat Strength in Rural Districts.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_2_DESCRIPTION">
-			<Text>Tier 2 Hittite Unique Golden Chariot.</Text>
+			<Text>Tier 2 Hittite Unique Golden Chariot. +2 Combat Strength in Rural Districts.</Text>
 		</Row>
+
+		<Row Tag="LOC_ABILITY_HITTITE_URBAN_PREVIEW">
+			<Text>+{1_Amount} Urban Districts</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_HITTITE_RURAL_PREVIEW">
+			<Text>+{1_Amount} Rural Districts</Text>
+		</Row>
+		
+		<Row Tag="LOC_UNIT_GAL_MESEDI_NAME">
+			<Text>Gal Mesedi</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GAL_MESEDI_DESCRIPTION">
+			<Text>Hittite Unique Commander Unit. +1 Combat Strength vs Urban Districts for every Tradition in the Government.</Text>
+		</Row>
+		
+		<Row Tag="LOC_ABILITY_HITTITE_COMBAT_VS_FORTIFICATION_PREVIEW">
+			<Text>+{1_Amount} from Traditions</Text>
+		</Row>
+
+		
 
 	</EnglishText>
 </Database>

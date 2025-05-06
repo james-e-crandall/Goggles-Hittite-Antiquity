@@ -5,6 +5,10 @@
 			<Text>Hittite Civics</Text>
 		</Row>
 
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_CAP_INCREASE_DESCRIPTION">
+			<Text>+1 Settlement Limit.</Text>
+		</Row>
+
 		<!-- NODE_CIVIC_AQ_HITTITE_LABARNA -->
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_LABARNA_QUOTE">
 			<Text>Labarna</Text>
@@ -15,8 +19,28 @@
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_LABARNA_NAME">
 			<Text>Labarna</Text>
 		</Row>
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_LABARNA_FLAT_PRODUCTION_DESCRIPTION">
+			<Text>+1% Production per Bonus Resouce assigned to a Settlement</Text>
+		</Row>
 
+	
+		<!-- Traditions -->
+		<!-- RADITION_HITTITE_RITUAL_PITS -->
+		<Row Tag="LOC_TRADITION_HITTITE_RITUAL_PITS_NAME">
+			<Text>Ritual Pits</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HITTITE_RITUAL_PITS_DESCRIPTION">
+			<Text>Clay Pits, Mines and Quarries give +1[icon:YIELD_CULTURE] Culture, but -1[icon:YIELD_PRODUCTION] Production.</Text>
+		</Row>
 		
+		<Row Tag="LOC_TRADITION_HITTITE_RITUAL_PITS_MOD_CULTURE_DESCRIPTION">
+			<Text>Clay Pits, Mines and Quarries +1[icon:YIELD_CULTURE] Culture</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRADITION_HITTITE_RITUAL_PITS_MOD_PRODUCTION_DESCRIPTION">
+			<Text>Clay Pits, Mines and Quarries -1[icon:YIELD_PRODUCTION] Production.</Text>
+		</Row>
+
 		<!-- NODE_CIVIC_AQ_HITTITE_HAPALKI -->
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_HAPALKI_QUOTE">
 			<Text>Hapalki</Text>
@@ -26,6 +50,14 @@
 		</Row>
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_HAPALKI_NAME">
 			<Text>Hapalki</Text>
+		</Row>
+		<!-- Traditions -->
+		<!-- TRADITION_HITTITE_GIFTS_OF_THE_STORM_GOD -->
+		<Row Tag="LOC_TRADITION_HITTITE_GIFTS_OF_THE_STORM_GOD_NAME">
+			<Text>Gifts of the Storm God</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HITTITE_GIFTS_OF_THE_STORM_GOD_DESCRIPTION">
+			<Text>+2 Happiness per Unassigned Resouce.</Text>
 		</Row>
 
 		<!-- NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU -->
@@ -38,5 +70,62 @@
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU_NAME">
 			<Text>Edict of Telepinu</Text>
 		</Row>
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU_WONDER_PRODUCTION_DESCRIPTION">
+			<Text>+5% Wonder production from Iron Resources</Text>
+		</Row>
+
+		<!-- Traditions -->
+		<!-- TRADITION_HITTITE_PANKUS -->
+		<Row Tag="LOC_TRADITION_HITTITE_PANKUS_NAME">
+			<Text>Pankuš</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HITTITE_PANKUS_DESCRIPTION">
+			<Text>Towns have +1 Happiness per assigned resource, and Cities have +3 Happiness per assigned resource.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HITTITE_PANKUS_MOD_TOWNS_DESCRIPTION">
+			<Text>Towns have +1 Happiness per assigned resource</Text>
+		</Row>
+
+		<Row Tag="LOC_TRADITION_HITTITE_PANKUS_MOD_CITIES_DESCRIPTION">
+			<Text>Cities have +3 Happiness per assigned resource</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRADITION_HITTITE_GIFTS_OF_THE_STORM_GOD_MOD_HAPPINESS_UNASSIGNED_RESOURCE_DESCRIPTION">
+			<Text>+2 Happiness per Unassigned Resouce.</Text>
+		</Row>
+
+		<!-- NODE_CIVIC_AQ_HITTITE_PERUNA_HATRAI -->
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_PERUNA_HATRAI_QUOTE">
+			<Text>Peruna Hatrāi (Rock Writing)</Text>
+		</Row>
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_PERUNA_HATRAI_QUOTE_AUTHOR">
+			<Text>Edict of Telepinu</Text>
+		</Row>
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_PERUNA_HATRAI_NAME">
+			<Text>Peruna Hatrāi (Rock Writing)</Text>
+		</Row>
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_PERUNA_HATRAI_HILL_CULTURE_NAME">
+			<Text>+1 Culture Adjacency with Hills</Text>
+		</Row>
+		
+		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_PERUNA_HATRAI_CAP_INCREASE_DESCRIPTION">
+			<Text>+1 Settlement Limit.</Text>
+		</Row>
+
+		<!-- Traditions -->
+		<!-- TRADITION_HITTITE_OATH_OF_LOYALTY -->
+		<Row Tag="LOC_TRADITION_HITTITE_OATH_OF_LOYALTY_NAME">
+			<Text>Labarna</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HITTITE_OATH_OF_LOYALTY_DESCRIPTION">
+			<Text>Labarna</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HITTITE_OATH_OF_LOYALTY_PACKED_UNITS_DESCRIPTION">
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness per Unit packed in a commander</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HITTITE_OATH_OF_LOYALTY_STATIONED_ON_DISTRICT_DESCRIPTION">
+			<Text>+25%[icon:YIELD_HAPPINESS] Happiness when a commanderi is stationed in a district.</Text>
+		</Row>
+
 	</EnglishText>
 </Database>

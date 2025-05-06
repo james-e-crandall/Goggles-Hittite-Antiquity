@@ -7,6 +7,10 @@
 		<Row Type="UNIT_GOLDEN_SPEARMAN_3" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_GOLDEN_CHARIOT" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_GOLDEN_CHARIOT_2" Kind="KIND_UNIT"/>
+
+		<Row Type="UNIT_GAL_MESEDI" Kind="KIND_UNIT"/>
+
+
 		<!-- Unique Abilities -->
 		<Row Type="ABILITY_HITTITE_TERRAIN_HILL" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_HITTITE_URBAN" Kind="KIND_ABILITY"/>
@@ -14,13 +18,16 @@
 		
 	</Types>
 	<Units>
-		<Row UnitType="UNIT_GOLDEN_SPEARMAN" Name="LOC_UNIT_GOLDEN_SPEARMAN_NAME" Description="LOC_UNIT_GOLDEN_SPEARMAN_DESCRIPTION" Tier="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true"/>
-		<Row UnitType="UNIT_GOLDEN_SPEARMAN_2" Name="LOC_UNIT_GOLDEN_SPEARMAN_2_NAME" Description="LOC_UNIT_GOLDEN_SPEARMAN_2_DESCRIPTION" Tier="2" Maintenance="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true"/>
-		<Row UnitType="UNIT_GOLDEN_SPEARMAN_3" Name="LOC_UNIT_GOLDEN_SPEARMAN_3_NAME" Description="LOC_UNIT_GOLDEN_SPEARMAN_3_DESCRIPTION" Tier="3" Maintenance="2" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true"/>
+		<Row UnitType="UNIT_GOLDEN_SPEARMAN" Name="LOC_UNIT_GOLDEN_SPEARMAN_NAME" Description="LOC_UNIT_GOLDEN_SPEARMAN_DESCRIPTION" Tier="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_HITTITE"/>
+		<Row UnitType="UNIT_GOLDEN_SPEARMAN_2" Name="LOC_UNIT_GOLDEN_SPEARMAN_2_NAME" Description="LOC_UNIT_GOLDEN_SPEARMAN_2_DESCRIPTION" Tier="2" Maintenance="1" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_HITTITE"/>
+		<Row UnitType="UNIT_GOLDEN_SPEARMAN_3" Name="LOC_UNIT_GOLDEN_SPEARMAN_3_NAME" Description="LOC_UNIT_GOLDEN_SPEARMAN_3_DESCRIPTION" Tier="3" Maintenance="2" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_HITTITE"/>
 		
 
 		<Row UnitType="UNIT_GOLDEN_CHARIOT" Name="LOC_UNIT_GOLDEN_CHARIOT_NAME" Description="LOC_UNIT_GOLDEN_CHARIOT_DESCRIPTION" Tier="2" Maintenance="1" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_WHEELED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_HITTITE"/>
-		<Row UnitType="UNIT_GOLDEN_CHARIOT_2" Name="LOC_UNIT_GOLDEN_CHARIOT_NAME" Description="LOC_UNIT_GOLDEN_CHARIOT_DESCRIPTION" Tier="3" Maintenance="2" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_WHEELED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_HITTITE_2"/>
+		<Row UnitType="UNIT_GOLDEN_CHARIOT_2" Name="LOC_UNIT_GOLDEN_CHARIOT_NAME" Description="LOC_UNIT_GOLDEN_CHARIOT_DESCRIPTION" Tier="3" Maintenance="2" BaseSightRange="2" BaseMoves="3" UnitMovementClass="UNIT_MOVEMENT_CLASS_WHEELED" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" TraitType="TRAIT_HITTITE"/>
+
+		<Row UnitType="UNIT_GAL_MESEDI" Name="LOC_UNIT_GAL_MESEDI_NAME" Description="LOC_UNIT_GAL_MESEDI_DESCRIPTION" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_SUPPORT" FormationClass="FORMATION_CLASS_COMMAND" ZoneOfControl="true" FoundCity="false" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="40" CanEarnExperience="true" PromotionClass="PROMOTION_CLASS_LAND_COMMANDER" TraitType="TRAIT_HITTITE"/>
+		
 	</Units>
 	<Unit_Stats>
 		<Row UnitType="UNIT_GOLDEN_SPEARMAN" Combat="20"/>
@@ -38,6 +45,8 @@
 		<Row UnitType="UNIT_GOLDEN_CHARIOT" YieldType="YIELD_PRODUCTION" Cost="70"/>
 		<Row UnitType="UNIT_GOLDEN_CHARIOT_2" YieldType="YIELD_PRODUCTION" Cost="110"/>
 
+		<Row UnitType="UNIT_GAL_MESEDI" YieldType="YIELD_PRODUCTION" Cost="100"/>
+
 	</Unit_Costs>
 	<UnitUpgrades>
 		<!-- Civ Unique Military -->
@@ -53,8 +62,11 @@
 		<Row CivUniqueUnitType="UNIT_GOLDEN_SPEARMAN_3" ReplacesUnitType="UNIT_PHALANX"/>
 		<Row CivUniqueUnitType="UNIT_GOLDEN_CHARIOT" ReplacesUnitType="UNIT_WARRIOR"/>
 		<Row CivUniqueUnitType="UNIT_GOLDEN_CHARIOT_2" ReplacesUnitType="UNIT_SPEARMAN"/>
+
+		<Row CivUniqueUnitType="UNIT_GAL_MESEDI" ReplacesUnitType="UNIT_ARMY_COMMANDER"/>
 	</UnitReplaces>
 	<Unit_TransitionRetains>
+		<Row UnitType="UNIT_GAL_MESEDI"/>
 	</Unit_TransitionRetains>
 	<AiUnitEfficiencyBonuses>
 	</AiUnitEfficiencyBonuses>
@@ -62,6 +74,7 @@
 		<!-- Civ Unique Military -->
 		<Row Tag="UNIT_CLASS_GOLDEN_SPEARMAN" Category="UNIT_CLASS"/>
 		<Row Tag="UNIT_CLASS_GOLDEN_CHARIOT" Category="UNIT_CLASS"/>
+		<Row Tag="UNIT_CLASS_GAL_MESEDI" Category="UNIT_CLASS"/>
 	</Tags>
 	<TypeTags>
 		<!-- Civ Unique Military -->
@@ -89,22 +102,26 @@
 		<Row Type="UNIT_GOLDEN_CHARIOT_2" Tag="UNIT_CLASS_WHEELED"/>
 		<Row Type="UNIT_GOLDEN_CHARIOT_2" Tag="UNIT_CLASS_ELITE_CAVALRY"/>
 		<Row Type="UNIT_GOLDEN_CHARIOT_2" Tag="UNIT_CLASS_GOLDEN_CHARIOT"/>
+
+		<Row Type="UNIT_GAL_MESEDI" Tag="UNIT_CLASS_COMMAND"/>
+		<Row Type="UNIT_GAL_MESEDI" Tag="UNIT_CLASS_ARMY_COMMANDER"/>
+		<Row Type="UNIT_GAL_MESEDI" Tag="UNIT_CLASS_ALTERNATE_SETTLE"/>
+		<Row Type="UNIT_GAL_MESEDI" Tag="UNIT_CLASS_GAL_MESEDI"/>
 	</TypeTags>
 	<UnitClass_Abilities>
-		<Row UnitAbilityType="ABILITY_HITTITE_TERRAIN_HILL" UnitClassType="UNIT_CLASS_GOLDEN_SPEARMAN"/>
-		<Row UnitAbilityType="ABILITY_HITTITE_TERRAIN_HILL" UnitClassType="UNIT_CLASS_GOLDEN_CHARIOT"/>
 		<Row UnitAbilityType="ABILITY_HITTITE_URBAN" UnitClassType="UNIT_CLASS_GOLDEN_SPEARMAN"/>
 		<Row UnitAbilityType="ABILITY_HITTITE_RURAL" UnitClassType="UNIT_CLASS_GOLDEN_CHARIOT"/>
+		<Row UnitAbilityType="ABILITY_GAL_MESEDI" UnitClassType="UNIT_CLASS_GAL_MESEDI"/>
 	</UnitClass_Abilities>
 	<UnitAbilities>
-		<Row UnitAbilityType="ABILITY_HITTITE_TERRAIN_HILL" Inactive="true" Name="LOC_ABILITY_HITTITE_TERRAIN_HILL_NAME" Description="LOC_ABILITY_HITTITE_TERRAIN_HILL_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_HITTITE_URBAN" Inactive="true" Name="LOC_ABILITY_HITTITE_URBAN_NAME" Description="LOC_ABILITY_HITTITE_URBAN_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_HITTITE_RURAL" Inactive="true" Name="LOC_ABILITY_HITTITE_RURAL_NAME" Description="LOC_ABILITY_HITTITE_RURAL_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GAL_MESEDI" Name="LOC_ABILITY_GAL_MESEDI_NAME" Description="LOC_ABILITY_GAL_MESEDI_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
-		<Row UnitAbilityType="ABILITY_HITTITE_TERRAIN_HILL" ModifierId="HITTITE_MOD_CHECK_FOR_TERRAIN_HILL"/>
 		<Row UnitAbilityType="ABILITY_HITTITE_URBAN" ModifierId="HITTITE_MOD_CHECK_DISTRICT_CLASS_URBAN"/>
 		<Row UnitAbilityType="ABILITY_HITTITE_RURAL" ModifierId="HITTITE_MOD_CHECK_DISTRICT_CLASS_RURAL"/>
+		<Row UnitAbilityType="ABILITY_GAL_MESEDI" ModifierId="HITTITE_MOD_COMBAT_VS_FORTIFICATION"/>
 	</UnitAbilityModifiers>
 	<ChargedUnitAbilities>
 	</ChargedUnitAbilities>
@@ -116,5 +133,6 @@
 
 		<Row UnitType="UNIT_GOLDEN_CHARIOT" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 		<Row UnitType="UNIT_GOLDEN_CHARIOT_2" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row UnitType="UNIT_GAL_MESEDI" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>
 	</Unit_Advisories>
 </Database>

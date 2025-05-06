@@ -4,7 +4,7 @@
 		<!-- NODE_CIVIC_AQ_HITTITE_LABARNA -->
 		<Modifier id="NODE_CIVIC_AQ_HITTITE_LABARNA_CAP_INCREASE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP" permanent="true">
 			<Argument name="Amount">1</Argument>
-			<String context="Description">LOC_NODE_CIVIC_AQ_HITTITE_LABARNA_CAP_INCREASE_DESCRIPTION</String>
+			<String context="Description">LOC_NODE_CIVIC_AQ_HITTITE_CAP_INCREASE_DESCRIPTION</String>
 		</Modifier>
 		<Modifier id="NODE_CIVIC_AQ_HITTITE_LABARNA_FLAT_PRODUCTION" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_RESOURCE_CLASS">
 			<Argument name="YieldType">YIELD_PRODUCTION</Argument>
@@ -34,9 +34,9 @@
 		</Modifier>
 
 		<!-- NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU -->
-		<Modifier id="NODE_CIVIC_AQ_HITTITE_PERUNA_HATRAI_CAP_INCREASE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP" permanent="true">
+		<Modifier id="NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU_CAP_INCREASE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP" permanent="true">
 			<Argument name="Amount">1</Argument>
-			<String context="Description">LOC_NODE_CIVIC_AQ_HITTITE_PERUNA_HATRAI_CAP_INCREASE_DESCRIPTION</String>
+			<String context="Description">LOC_NODE_CIVIC_AQ_HITTITE_CAP_INCREASE_DESCRIPTION</String>
 		</Modifier>
 
 </GameEffects>

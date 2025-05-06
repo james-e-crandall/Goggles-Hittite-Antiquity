@@ -8,7 +8,7 @@
 			<Text>{LOC_WONDER_YAZILIKAYA_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_WONDER_YAZILIKAYA_TOOLTIP">
-			<Text>For each different Resource assigned to a Town, reduce its upgrade cost into a City by 5%. All Towns can support +1 Resource. Must be placed on Rough Terrain, adjacent to a Resource.</Text>
+			<Text>Constructing a Building or Wonder in this city grants[icon:YIELD_HAPPINESS] Happiness equal to 25% of its Production cost.  Must be build on a Rough Tile adjacent to a Iron Resource.</Text>
 		</Row>
 		<Row Tag="LOC_QUOTE_WONDER_YAZILIKAYA">
 			<Text>Whoever after me becomes king resettles Hattusas, let the Stormgod of the Sky strike him!</Text>

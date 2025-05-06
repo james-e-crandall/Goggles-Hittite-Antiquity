@@ -29,6 +29,7 @@
 		<Row Type="BUILDING_HUWASI" Tag="HAPPINESS"/>
 		<Row Type="BUILDING_HUWASI" Tag="UNIQUE"/>
 		<Row Type="BUILDING_HUWASI" Tag="AGELESS"/>
+		<Row Type="BUILDING_HUWASI" Tag="RELIGIOUS"/>
 		<Row Type="BUILDING_GISKINTI" Tag="PRODUCTION"/>
 		<Row Type="BUILDING_GISKINTI" Tag="UNIQUE"/>
 		<Row Type="BUILDING_GISKINTI" Tag="AGELESS"/>
@@ -70,8 +71,6 @@
 	<Constructible_Adjacencies>
 		<!-- Civ Uniques -->
 		<Row ConstructibleType="BUILDING_HUWASI" YieldChangeId="HuwasiResouceFood"/>
-		
-
 		<Row ConstructibleType="BUILDING_ANCIENT_WALLS" YieldChangeId="PotkopResourceFood"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>

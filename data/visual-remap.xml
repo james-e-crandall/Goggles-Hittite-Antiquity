@@ -38,6 +38,13 @@
             <To>UNIT_CHARIOT</To>
         </Row>
 
+        <Row>
+            <ID>REMAP_UNIT_GAL_MESEDI</ID>
+            <DisplayName>LOC_UNIT_GAL_MESEDI_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_GAL_MESEDI</From>
+            <To>UNIT_ARMY_COMMANDER</To>
+        </Row>
+
     </VisualRemaps>
 </Database>
-<!-- generated with https://github.com/izica/civ7-modding-tools -->
