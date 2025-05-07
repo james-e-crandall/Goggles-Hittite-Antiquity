@@ -36,6 +36,9 @@
             <!-- let other mods override the yield banner -->
             <ModInUse>friedrich-xerxes-alt</ModInUse>
         </Criteria>
+        <Criteria all="true" id="izica-unit-portrait-visual-remaps-enable">
+            <ModInUse>izica-unit-portrait-visual-remaps</ModInUse>
+        </Criteria>
 	</ActionCriteria>
 	<ActionGroups>
 		<!-- Optional compatability -->
@@ -46,6 +49,13 @@
 					<Item>ynamp/data/greatest-earth.xml</Item>
                 </UpdateDatabase>
             </Actions>
+		</ActionGroup>
+		<ActionGroup id="izica-unit-portrait-visual-remaps" scope="game" criteria="izica-unit-portrait-visual-remaps-enable">
+			<Actions>
+				<UIScripts>
+					<Item>ui/game.js</Item>
+				</UIScripts>
+			</Actions>
 		</ActionGroup>
 		<!-- HITTITE -->
         <ActionGroup id="goggles-mod-hittite" scope="game" criteria="always">
