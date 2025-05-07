@@ -11,10 +11,10 @@
 
 		<!-- NODE_CIVIC_AQ_HITTITE_LABARNA -->
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_LABARNA_QUOTE">
-			<Text>Labarna</Text>
+			<Text>Do not rejoice over your belly, for I have placed a burden in your belly. First, I have impregnated you with the mighty Storm-god. Second, I have impregnated you with the River Tigris, not to be borne. Third, I have impregnated you with the mighty Tašmišu. I have placed three frightful deities as a burden in your belly, and you will end up banging your head against the rocks of Mt. Tašša!</Text>
 		</Row>
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_LABARNA_QUOTE_AUTHOR">
-			<Text>Labarna</Text>
+			<Text>Song of Emergence</Text>
 		</Row>
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_LABARNA_NAME">
 			<Text>Labarna</Text>
@@ -43,10 +43,10 @@
 
 		<!-- NODE_CIVIC_AQ_HITTITE_HAPALKI -->
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_HAPALKI_QUOTE">
-			<Text>Hapalki</Text>
+			<Text>Ea began to say: “Why are you destroying mankind? They will not give sacrifices to the gods. They will not burn cedar and incense to you. If you destroy mankind, they will no longer worship the gods. No one will offer bread or libations to you any longer. Even Teššub, Kummiya’s heroic king, will himself work the plow. (...) Ea, King of Wisdom, said to Kumarbi: “Why are you, o Kumarbi, seeking to harm mankind? Does not the mortal take a grain heap and do they not promptly offer it to you, Kumarbi? Does he make offering to you alone, Kumarbi, Father of the Gods, joyfully in the midst of the temple?</Text>
 		</Row>
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_HAPALKI_QUOTE_AUTHOR">
-			<Text>Hapalki</Text>
+			<Text>Song of Ḫedammu</Text>
 		</Row>
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_HAPALKI_NAME">
 			<Text>Hapalki</Text>
@@ -62,10 +62,10 @@
 
 		<!-- NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU -->
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU_QUOTE">
-			<Text>Edict of Telepinu</Text>
+			<Text>Let a prince – a son of the first rank only be installed as king! If a prince of the first rank does not exist, (then) let he who is a son of second rank become king. But if there is no prince, no male issue, (then) let them take an antiyant-husband for she who is a first rank daughter, and let him become king.</Text>
 		</Row>
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU_QUOTE_AUTHOR">
-			<Text>Edict of Telepinu</Text>
+			<Text>Telipinu</Text>
 		</Row>
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_EDICT_OF_TELEPINU_NAME">
 			<Text>Edict of Telepinu</Text>
@@ -96,10 +96,10 @@
 
 		<!-- NODE_CIVIC_AQ_HITTITE_PERUNA_HATRAI -->
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_PERUNA_HATRAI_QUOTE">
-			<Text>Peruna Hatrāi (Rock Writing)</Text>
+			<Text>You are the strong one, which I (praise), the bull calf of Anu! You are the strong one, which I (praise), your father Anu begot you, your mother Kumarbi brought you to life. For the city of Aleppo I summon him, Teššop, for the pure throne.</Text>
 		</Row>
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_PERUNA_HATRAI_QUOTE_AUTHOR">
-			<Text>Edict of Telepinu</Text>
+			<Text>Hurrian hymn</Text>
 		</Row>
 		<Row Tag="LOC_NODE_CIVIC_AQ_HITTITE_PERUNA_HATRAI_NAME">
 			<Text>Peruna Hatrāi (Rock Writing)</Text>
@@ -115,17 +115,15 @@
 		<!-- Traditions -->
 		<!-- TRADITION_HITTITE_OATH_OF_LOYALTY -->
 		<Row Tag="LOC_TRADITION_HITTITE_OATH_OF_LOYALTY_NAME">
-			<Text>Labarna</Text>
+			<Text>Oath of Loyalty</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_HITTITE_OATH_OF_LOYALTY_DESCRIPTION">
-			<Text>Labarna</Text>
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness per Unit packed in a commander</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_HITTITE_OATH_OF_LOYALTY_PACKED_UNITS_DESCRIPTION">
 			<Text>+1[icon:YIELD_HAPPINESS] Happiness per Unit packed in a commander</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_HITTITE_OATH_OF_LOYALTY_STATIONED_ON_DISTRICT_DESCRIPTION">
-			<Text>+25%[icon:YIELD_HAPPINESS] Happiness when a commanderi is stationed in a district.</Text>
-		</Row>
+
 
 	</EnglishText>
 </Database>

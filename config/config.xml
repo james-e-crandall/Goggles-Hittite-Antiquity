@@ -37,6 +37,8 @@
 		
 	</LeaderCivilizationBias>
 	<CivilizationUnlocks>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_ABBASID" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_ABBASID_NAME" Description="LOC_CIVILIZATION_ABBASID_DESCRIPTION" Icon="CIVILIZATION_ABBASID"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HITTITE" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_MONGOLIA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_MONGOLIA_NAME" Description="LOC_CIVILIZATION_MONGOLIA_DESCRIPTION" Icon="CIVILIZATION_MONGOLIA"/>
 		
 	</CivilizationUnlocks>
 	<LeaderUnlocks>

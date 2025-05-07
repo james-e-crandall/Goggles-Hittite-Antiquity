@@ -70,8 +70,11 @@
 		<Row CivilizationType="CIVILIZATION_HITTITE" BiomeType="BIOME_GRASSLAND" Score="5"/>
 	</StartBiasBiomes>
 	<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_HITTITE" TerrainType="TERRAIN_FLAT" Score="15"/>
+		<Row CivilizationType="CIVILIZATION_HITTITE" TerrainType="TERRAIN_HILL" Score="15"/>
 	</StartBiasTerrains>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_HITTITE" ResourceType="RESOURCE_IRON" Score="5"/>
+	</StartBiasResources>
 	<VisArt_CivilizationBuildingCultures>
 		<Row CivilizationType="CIVILIZATION_HITTITE" BuildingCulture="BUILDING_CULTURE_MID"/>
 		<Row CivilizationType="CIVILIZATION_HITTITE" BuildingCulture="ANT_MUD"/>

@@ -24,7 +24,9 @@
 		<Row RequirementSetId="REQSET_CIV_IS_HITTITE" RequirementId="REQ_CIV_IS_HITTITE"/>
 	</RequirementSetRequirements>
 	<UnlockRequirements>
-
+		<Row UnlockType="UNLOCK_CIVILIZATION_ABBASID" RequirementSetId="REQSET_CIV_IS_HITTITE" Description="LOC_UNLOCK_PLAY_AS_HITTITE_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_HITTITE_ABBASID_TOOLTIP"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_MONGOLIA" RequirementSetId="REQSET_CIV_IS_HITTITE" Description="LOC_UNLOCK_PLAY_AS_HITTITE_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_HITTITE_MONGOLIA_TOOLTIP"/>
+		
 	</UnlockRequirements>
 	<UnlockConfigurationValues>
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HITTITE" ConfigurationValue="CIVILIZATION_HITTITE"/>

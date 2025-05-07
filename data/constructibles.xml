@@ -11,8 +11,8 @@
 	</AgeGrowthBalances>
 	<Constructibles>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_HUWASI" Name="LOC_BUILDING_HUWASI_NAME" Description="LOC_BUILDING_HUWASI_DESCRIPTION" Tooltip="LOC_BUILDING_HUWASI_TOOLTIP" ConstructibleClass="BUILDING" Cost="90" Population="1" Age="AGE_ANTIQUITY"/>
-		<Row ConstructibleType="BUILDING_GISKINTI" Name="LOC_BUILDING_GISKINTI_NAME" Description="LOC_BUILDING_GISKINTI_DESCRIPTION" Tooltip="LOC_BUILDING_GISKINTI_TOOLTIP" ConstructibleClass="BUILDING" Cost="120" Population="1" Age="AGE_ANTIQUITY"/>
+		<Row ConstructibleType="BUILDING_HUWASI" Name="LOC_BUILDING_HUWASI_NAME" Description="LOC_BUILDING_HUWASI_DESCRIPTION" Tooltip="LOC_BUILDING_HUWASI_TOOLTIP" ConstructibleClass="BUILDING" AdjacentTerrain="TERRAIN_HILL" Cost="90" Population="1" Age="AGE_ANTIQUITY" />
+		<Row ConstructibleType="BUILDING_GISKINTI" Name="LOC_BUILDING_GISKINTI_NAME" Description="LOC_BUILDING_GISKINTI_DESCRIPTION" Tooltip="LOC_BUILDING_GISKINTI_TOOLTIP" ConstructibleClass="BUILDING" AdjacentTerrain="TERRAIN_HILL" Cost="120" Population="1" Age="AGE_ANTIQUITY"/>
 	</Constructibles>
 	<Buildings>
 		<!-- Civ Unique Buildings -->
@@ -49,8 +49,6 @@
 	<Constructible_InvalidAdjacentBiomes>
 	</Constructible_InvalidAdjacentBiomes>
 	<Constructible_ValidTerrains>
-		<Row ConstructibleType="BUILDING_HUWASI" TerrainType="TERRAIN_HILL"/>
-		<Row ConstructibleType="BUILDING_GISKINTI" TerrainType="TERRAIN_HILL"/>
 	</Constructible_ValidTerrains>
 	<Constructible_RequiredFeatures>
 	</Constructible_RequiredFeatures>
@@ -71,7 +69,6 @@
 	<Constructible_Adjacencies>
 		<!-- Civ Uniques -->
 		<Row ConstructibleType="BUILDING_HUWASI" YieldChangeId="HuwasiResouceFood"/>
-		<Row ConstructibleType="BUILDING_ANCIENT_WALLS" YieldChangeId="PotkopResourceFood"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 		<!-- Civ Uniques -->
@@ -82,7 +79,7 @@
 		<Row ConstructibleType="BUILDING_GISKINTI" YieldChangeId="GiskintiMineResourceHappiness"/>
 	</Constructible_WarehouseYields>
 	<Warehouse_YieldChanges>
-		<Row ID="GiskintiMineResourceHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
+		<Row ID="GiskintiMineResourceHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="2" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
 
 		<Row ID="HittiteRitualPitsClayPitsCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" ConstructibleInCity="IMPROVEMENT_CLAY_PIT"/>
 		<Row ID="HittiteRitualPitsMineCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE"/>
@@ -95,6 +92,7 @@
 		<Row ID="HittiteRitualPitsQuarryProudction" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="-1" ConstructibleInCity="IMPROVEMENT_QUARRY"/>
  	</Warehouse_YieldChanges>
 	<Constructible_WildcardAdjacencies>
+		<Row YieldChangeId="HittitePerunaHatraiCulture" RequiresActivation="true" ConstructibleClass="BUILDING"/>
 	</Constructible_WildcardAdjacencies>
 	<Constructible_Logistics>
 	</Constructible_Logistics>

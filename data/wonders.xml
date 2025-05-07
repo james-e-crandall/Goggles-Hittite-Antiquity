@@ -17,7 +17,6 @@
 		<Row ConstructibleType="WONDER_YAZILIKAYA" DistrictType="DISTRICT_WONDER"  />
     </Constructible_ValidDistricts>
 	<Constructible_ValidTerrains>
-		<Row ConstructibleType="WONDER_YAZILIKAYA" TerrainType="TERRAIN_HILL"/>
 	</Constructible_ValidTerrains>
 	<Constructible_YieldChanges>
 		<Row ConstructibleType="WONDER_YAZILIKAYA" YieldType="YIELD_GOLD" YieldChange="3"/>
