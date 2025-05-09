@@ -20,6 +20,10 @@ window.UnitPortraitVisualRemaps = {
         unitType: 'UNIT_CHARIOT',
         background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
     },
+    'UNIT_GAL_MESEDI': { //your unit type
+        unitType: 'UNIT_ARMY_COMMANDER',
+        background: "UnitPortraitsBG_UNIQUE", //"UnitPortraitsBG_UNIQUE" || "UnitPortraitsBG_BASE"
+    },
 }
 
 
