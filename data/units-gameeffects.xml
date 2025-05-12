@@ -1,33 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 	<!-- Units  -->
-
-	<Modifier id="HITTITE_MOD_CHECK_DISTRICT_CLASS_URBAN" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
+	<Modifier id="HITTITE_GOLDEN_MOD_GOLD_ON_UNIT_DEFEAT" collection="COLLECTION_PLAYER_COMBAT" effect="EFFECT_ADJUST_UNIT_POST_COMBAT_YIELD">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="PercentDefeatedStrength">50</Argument>
+		<String context="Description">LOC_ABILITY_HITTITE_GOLDEN_GOLD_ON_UNIT_DEFEAT_NAME</String>
+		<String context="WorldText">LOC_WORLD_GOLD_INCREASE_FLOATER</String>
+	</Modifier>
+	<Modifier id="HITTITE_GOLDEN_MOD_INDEPENDENT_ADJUST_UNIT_COMBAT_STRENGTH_MODIFIER" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
-				<Argument name="DistrictClass">CITYCENTER, URBAN</Argument>
-			</Requirement>
+			<Requirement type="REQUIREMENT_OPPONENT_IS_INDEPENDENT"/>
 		</SubjectRequirements>
-		<Argument name="AbilityType">ATTACH_HITTITE_MOD_CHECK_DISTRICT_CLASS_URBAN</Argument>
-	</Modifier>
-
-	<Modifier id="ATTACH_HITTITE_MOD_CHECK_DISTRICT_CLASS_URBAN" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<Argument name="Amount">2</Argument>
-		<String context="Preview">LOC_ABILITY_HITTITE_URBAN_PREVIEW</String>
-	</Modifier>
-
-	<Modifier id="HITTITE_MOD_CHECK_DISTRICT_CLASS_RURAL" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
-				<Argument name="DistrictClass">RURAL</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="AbilityType">ATTACH_HITTITE_MOD_CHECK_DISTRICT_CLASS_URBAN</Argument>
-	</Modifier>
-
-	<Modifier id="ATTACH_HITTITE_MOD_CHECK_DISTRICT_CLASS_RURAL" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<Argument name="Amount">2</Argument>
-		<String context="Preview">LOC_ABILITY_HITTITE_RURAL_PREVIEW</String>
+		<Argument name="Amount">3</Argument>
+		<String context="Preview">LOC_ABILITY_HITTITE_GOLDEN_MOD_INDEPENDENT_COMBAT_DESCRIPTION</String>
 	</Modifier>
 
 	<Modifier id="HITTITE_MOD_COMBAT_VS_FORTIFICATION" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_CIV_UNIQUE_TRADITION_COMBAT_MODIFIER">

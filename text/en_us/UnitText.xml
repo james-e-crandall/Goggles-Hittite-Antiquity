@@ -3,43 +3,55 @@
 	<EnglishText>
 		<!-- Unit Abilities -->
 
-		<!-- Greece Unique Units -->
+		<!-- UNIT_GOLDEN_SPEARMAN -->
 		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_NAME">
 			<Text>Golden Spearman</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_BASE_DESCRIPTION">
-			<Text>Hittite Unique Golden Spearman. +2 Combat Strength in Urban Districts.</Text>
+			<Text>Hittite Unique Infantry Unit. +3 Combat Strength vs Independants.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_DESCRIPTION">
-			<Text>Hittite Unique Golden Spearman. +2 Combat Strength in Urban Districts.</Text>
+			<Text>Hittite Unique Infantry Unit. +3 Combat Strength vs Independants.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_2_DESCRIPTION">
-			<Text>Tier 2 Hittite Unique Golden Spearman. +2 Combat Strength in Urban Districts.</Text>
+			<Text>Tier 2 Hittite Infantry Cavalry Unit. +3 Combat Strength vs Independants.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_3_DESCRIPTION">
-			<Text>Tier 3 Hittite Unique Golden Spearman. +2 Combat Strength in Urban Districts.</Text>
+			<Text>Tier 3 Hittite Infantry Cavalry Unit. +3 Combat Strength vs Independants.</Text>
 		</Row>
+
+		<!-- ABILITY_HITTITE_GOLDEN_MOD_INDEPENDENT_COMBAT -->
+		<Row Tag="LOC_ABILITY_HITTITE_GOLDEN_MOD_INDEPENDENT_COMBAT_NAME">
+			<Text>Golden Spearman</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HITTITE_GOLDEN_MOD_INDEPENDENT_COMBAT_DESCRIPTION">
+			<Text>+{1_Amount} Combat Strength vs Independants.</Text>
+		</Row>
+
+		<!-- UNIT_GOLDEN_CHARIOT -->
+
 		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_NAME">
 			<Text>Golden Chariot</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_BASE_DESCRIPTION">
-			<Text>Hittite Unique Golden Chariot. +2 Combat Strength in Rural Districts.</Text>
+			<Text>Hittite Unique Cavalry Unit. Defeating an enemy Unit provides [icon:YIELD_GOLD] Gold [equal to 25% of its Combat Strength.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_DESCRIPTION">
-			<Text>Hittite Unique Golden Chariot. +2 Combat Strength in Rural Districts.</Text>
+			<Text>Hittite Unique Cavalry Unit. Defeating an enemy Unit provides [icon:YIELD_GOLD] Gold [equal to 25% of its Combat Strength.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_2_DESCRIPTION">
-			<Text>Tier 2 Hittite Unique Golden Chariot. +2 Combat Strength in Rural Districts.</Text>
+			<Text>Tier 2 Hittite Unique Cavalry Unit. Defeating an enemy Unit provides [icon:YIELD_GOLD] Gold [equal to 25% of its Combat Strength.</Text>
 		</Row>
 
-		<Row Tag="LOC_ABILITY_HITTITE_URBAN_PREVIEW">
-			<Text>+{1_Amount} Urban Districts</Text>
+		<!-- ABILITY_HITTITE_GOLDEN_MOD_GOLD_ON_UNIT_DEFEAT -->
+
+		<Row Tag="LOC_ABILITY_HITTITE_GOLD_ON_UNIT_DEFEAT_NAME">
+			<Text>Golden Chariot</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HITTITE_GOLD_ON_UNIT_DEFEAT_DESCRIPTION">
+			<Text>Defeating an enemy Unit provides [icon:YIELD_GOLD] Gold [equal to 25% of its Combat Strength.</Text>
 		</Row>
 
-		<Row Tag="LOC_ABILITY_HITTITE_RURAL_PREVIEW">
-			<Text>+{1_Amount} Rural Districts</Text>
-		</Row>
-		
 		<Row Tag="LOC_UNIT_GAL_MESEDI_NAME">
 			<Text>Gal Mesedi</Text>
 		</Row>
