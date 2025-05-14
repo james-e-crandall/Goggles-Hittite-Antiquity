@@ -8,7 +8,7 @@
 		<Row Type="WONDER_YAZILIKAYA" Quote="LOC_QUOTE_WONDER_YAZILIKAYA" QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_YAZILIKAYA" QuoteAudio="VO_Quote_Yazilikaya"/>
     </TypeQuotes>
 	<Constructibles>
-		<Row ConstructibleType="WONDER_YAZILIKAYA" Name="LOC_WONDER_YAZILIKAYA_NAME" Description="LOC_WONDER_YAZILIKAYA_DESCRIPTION" Tooltip="LOC_WONDER_YAZILIKAYA_TOOLTIP" ConstructibleClass="WONDER" Cost="275" Population="0" ImmuneDamage="true" Age="AGE_ANTIQUITY" AdjacentTerrain="TERRAIN_HILL" RequiresUnlock="true" />
+		<Row ConstructibleType="WONDER_YAZILIKAYA" Name="LOC_WONDER_YAZILIKAYA_NAME" Description="LOC_WONDER_YAZILIKAYA_DESCRIPTION" Tooltip="LOC_WONDER_YAZILIKAYA_TOOLTIP" ConstructibleClass="WONDER" Cost="275" Population="0" ImmuneDamage="true" Age="AGE_ANTIQUITY" RequiresUnlock="true" />
     </Constructibles>
     <Wonders>
 		<Row ConstructibleType="WONDER_YAZILIKAYA" MaxWorldInstances="1" AdjacentResource="RESOURCE_IRON" />    
