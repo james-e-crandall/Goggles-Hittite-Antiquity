@@ -25,10 +25,10 @@
 			<Text>Kuntarra</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_KUNTARRA_DESCRIPTION">
-			<Text>+1 [icon:YIELD_GOLD]Gold on all Rough Terrain.</Text>
+			<Text>Hittie Unique Quarter. Created by constructing the Huwasi and Giškinti in the same District. +10%[icon:YIELD_GOLD] Gold in this Settlement.</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_KUNTARRA_TOOLTIP">
-			<Text>+1 [icon:YIELD_GOLD]Gold on all Rough Terrain.</Text>
+			<Text>+10%[icon:YIELD_GOLD] Gold in this Settlement.</Text>
 		</Row>
 	</EnglishText>
 </Database>

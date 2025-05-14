@@ -63,7 +63,22 @@
 			<Text>+{1_Amount} from Traditions</Text>
 		</Row>
 
-		
+		<!-- Culture Tree Unit Abilities -->
+		<Row Tag="LOC_ABILITY_HITTITE_URBAN_DESCRIPTION">
+			<Text>Golden Spearman have +2 Combat Strength in Urban Districts.</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_HITTITE_RURAL_DESCRIPTION">
+			<Text>Golden Chariot have +2 Combat Strength in Rural Districts.</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_HITTITE_URBAN_PREVIEW">
+			<Text>+{1_Amount} Urban Districts</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_HITTITE_RURAL_PREVIEW">
+			<Text>+{1_Amount} Rural Districts</Text>
+		</Row>
 
 	</EnglishText>
 </Database>

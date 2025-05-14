@@ -73,7 +73,7 @@
 	<Adjacency_YieldChanges>
 		<!-- Civ Uniques -->
 		<Row ID="HuwasiResouceFood" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentResource="true"/>
-		<Row ID="HittitePerunaHatraiCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="2" ProjectMaxYield="true" AdjacentTerrain="TERRAIN_HILL"/>
+		<Row ID="HittitePerunaHatraiCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_HILL"/>
 	</Adjacency_YieldChanges>
 	<Constructible_WarehouseYields>
 		<Row ConstructibleType="BUILDING_GISKINTI" YieldChangeId="GiskintiMineResourceHappiness"/>
@@ -81,10 +81,10 @@
 	<Warehouse_YieldChanges>
 		<Row ID="GiskintiMineResourceHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="2" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
 
-		<Row ID="HittiteRitualPitsClayPitsCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" ConstructibleInCity="IMPROVEMENT_CLAY_PIT"/>
-		<Row ID="HittiteRitualPitsMineCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE"/>
-		<Row ID="HittiteRitualPitsMineResouceCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
-		<Row ID="HittiteRitualPitsQuarryCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" ConstructibleInCity="IMPROVEMENT_QUARRY"/>
+		<Row ID="HittiteRitualPitsClayPitsCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="2" ConstructibleInCity="IMPROVEMENT_CLAY_PIT"/>
+		<Row ID="HittiteRitualPitsMineCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="2" ConstructibleInCity="IMPROVEMENT_MINE"/>
+		<Row ID="HittiteRitualPitsMineResouceCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="2" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
+		<Row ID="HittiteRitualPitsQuarryCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="2" ConstructibleInCity="IMPROVEMENT_QUARRY"/>
 
 		<Row ID="HittiteRitualPitsClayPitsProudction" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="-1" ConstructibleInCity="IMPROVEMENT_CLAY_PIT"/>
 		<Row ID="HittiteRitualPitsMineProudction" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="-1" ConstructibleInCity="IMPROVEMENT_MINE"/>
@@ -108,11 +108,11 @@
 		
 	</UniqueQuarters>
 	<GameModifiers>
-		<Row ModifierId="MOD_KUNTARRA_HILL_GOLD"/>
+		<Row ModifierId="MOD_HITTITE_KUNTARRA_HILL_GOLD"/>
 	</GameModifiers>
 	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
 	<UniqueQuarterModifiers>
-		<Row UniqueQuarterType="QUARTER_KUNTARRA" ModifierId="MOD_KUNTARRA_HILL_GOLD"/>
+		<Row UniqueQuarterType="QUARTER_KUNTARRA" ModifierId="MOD_HITTITE_KUNTARRA_HILL_GOLD"/>
 	</UniqueQuarterModifiers>
 	<Constructible_Advisories>
 	</Constructible_Advisories>

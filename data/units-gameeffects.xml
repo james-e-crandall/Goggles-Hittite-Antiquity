@@ -23,5 +23,41 @@
 		<String context="Preview">LOC_ABILITY_HITTITE_COMBAT_VS_FORTIFICATION_PREVIEW</String>
 	</Modifier>
 
+	<!-- Culture Tree Unit Abilities -->
+	<Modifier id="HITTITE_MOD_CHECK_DISTRICT_CLASS_URBAN" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+				<Argument name="DistrictClass">CITYCENTER, URBAN</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_GOLDEN_SPEARMAN</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_HITTITE_URBAN</Argument>
+		<String context="Description">LOC_ABILITY_HITTITE_URBAN_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="ATTACH_HITTITE_MOD_CHECK_DISTRICT_CLASS_URBAN" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">2</Argument>
+		<String context="Preview">LOC_ABILITY_HITTITE_URBAN_PREVIEW</String>
+	</Modifier>
+
+	<Modifier id="HITTITE_MOD_CHECK_DISTRICT_CLASS_RURAL" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+				<Argument name="DistrictClass">RURAL</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_GOLDEN_CHARIOT</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_HITTITE_RURAL</Argument>
+		<String context="Description">LOC_ABILITY_HITTITE_RURAL_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="ATTACH_HITTITE_MOD_CHECK_DISTRICT_CLASS_RURAL" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">2</Argument>
+		<String context="Preview">LOC_ABILITY_HITTITE_RURAL_PREVIEW</String>
+	</Modifier>
 
 </GameEffects>

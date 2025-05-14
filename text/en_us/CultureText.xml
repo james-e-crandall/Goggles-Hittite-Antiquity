@@ -30,11 +30,11 @@
 			<Text>Ritual Pits</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_HITTITE_RITUAL_PITS_DESCRIPTION">
-			<Text>Clay Pits, Mines and Quarries give +1[icon:YIELD_CULTURE] Culture, but -1[icon:YIELD_PRODUCTION] Production.</Text>
+			<Text>Clay Pits, Mines and Quarries give +2[icon:YIELD_CULTURE] Culture, but -1[icon:YIELD_PRODUCTION] Production.</Text>
 		</Row>
 		
 		<Row Tag="LOC_TRADITION_HITTITE_RITUAL_PITS_MOD_CULTURE_DESCRIPTION">
-			<Text>Clay Pits, Mines and Quarries +1[icon:YIELD_CULTURE] Culture</Text>
+			<Text>Clay Pits, Mines and Quarries +2[icon:YIELD_CULTURE] Culture</Text>
 		</Row>
 		
 		<Row Tag="LOC_TRADITION_HITTITE_RITUAL_PITS_MOD_PRODUCTION_DESCRIPTION">

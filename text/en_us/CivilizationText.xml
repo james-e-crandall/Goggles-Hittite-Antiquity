@@ -24,7 +24,7 @@
 			<Text>Arinnitta's Embrace</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_HITTITE_ABILITY_DESCRIPTION">
-			<Text>[LIST][LI][B]Resouces[/B] have [B]+1 [icon:YIELD_GOLD]Gold[/B]. [B]Buildings[/B] and [B]Improvements[/B] have [B]+1 [icon:YIELD_GOLD]Gold[/B] adjacency with [B]Resouces[/B][LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Temple of Posidon[/B].[/LIST]</Text>
+			<Text>[LIST][LI][B]Resouces[/B] have [B]+1 [icon:YIELD_GOLD]Gold[/B]. [B]Buildings[/B] and [B]Improvements[/B] have [B]+1 [icon:YIELD_GOLD]Gold[/B] adjacency with [B]Resouces[/B][LI][B]+30%[icon:YIELD_PRODUCTION] Production [/B]towards constructing [B]Yazilikaya[/B].[/LIST]</Text>
 		</Row>
 		
 	</EnglishText>
