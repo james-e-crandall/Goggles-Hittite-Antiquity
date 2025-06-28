@@ -2,8 +2,8 @@
 <Database>  
 	<Types>
 		<!-- Civ Unique Buildings -->
-		<Row Type="BUILDING_HUWASI" Kind="KIND_CONSTRUCTIBLE"/>
-		<Row Type="BUILDING_GISKINTI" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_HUWASI_JEC" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_GISKINTI_JEC" Kind="KIND_CONSTRUCTIBLE"/>
 	</Types>
 	<TypeQuotes>
 	</TypeQuotes>
@@ -11,13 +11,13 @@
 	</AgeGrowthBalances>
 	<Constructibles>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_HUWASI" Name="LOC_BUILDING_HUWASI_NAME" Description="LOC_BUILDING_HUWASI_DESCRIPTION" Tooltip="LOC_BUILDING_HUWASI_TOOLTIP" ConstructibleClass="BUILDING" AdjacentTerrain="TERRAIN_HILL" Cost="90" Population="1" Age="AGE_ANTIQUITY" />
-		<Row ConstructibleType="BUILDING_GISKINTI" Name="LOC_BUILDING_GISKINTI_NAME" Description="LOC_BUILDING_GISKINTI_DESCRIPTION" Tooltip="LOC_BUILDING_GISKINTI_TOOLTIP" ConstructibleClass="BUILDING" AdjacentTerrain="TERRAIN_HILL" Cost="120" Population="1" Age="AGE_ANTIQUITY"/>
+		<Row ConstructibleType="BUILDING_HUWASI_JEC" Name="LOC_BUILDING_HUWASI_JEC_NAME" Description="LOC_BUILDING_HUWASI_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_HUWASI_JEC_TOOLTIP" ConstructibleClass="BUILDING" AdjacentTerrain="TERRAIN_HILL" Cost="90" Population="1" Age="AGE_ANTIQUITY" />
+		<Row ConstructibleType="BUILDING_GISKINTI_JEC" Name="LOC_BUILDING_GISKINTI_JEC_NAME" Description="LOC_BUILDING_GISKINTI_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_GISKINTI_JEC_TOOLTIP" ConstructibleClass="BUILDING" AdjacentTerrain="TERRAIN_HILL" Cost="120" Population="1" Age="AGE_ANTIQUITY"/>
 	</Constructibles>
 	<Buildings>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_HUWASI" Movable="false" TraitType="TRAIT_HITTITE"/>
-		<Row ConstructibleType="BUILDING_GISKINTI" Movable="false" TraitType="TRAIT_HITTITE"/>
+		<Row ConstructibleType="BUILDING_HUWASI_JEC" Movable="false" TraitType="TRAIT_HITTITE_JEC"/>
+		<Row ConstructibleType="BUILDING_GISKINTI_JEC" Movable="false" TraitType="TRAIT_HITTITE_JEC"/>
 	</Buildings>
 	<Improvements>
 
@@ -26,20 +26,20 @@
 	</Wonders>
 	<TypeTags>
 		<!-- Civ Unique Buildings -->
-		<Row Type="BUILDING_HUWASI" Tag="HAPPINESS"/>
-		<Row Type="BUILDING_HUWASI" Tag="UNIQUE"/>
-		<Row Type="BUILDING_HUWASI" Tag="AGELESS"/>
-		<Row Type="BUILDING_HUWASI" Tag="RELIGIOUS"/>
-		<Row Type="BUILDING_GISKINTI" Tag="PRODUCTION"/>
-		<Row Type="BUILDING_GISKINTI" Tag="UNIQUE"/>
-		<Row Type="BUILDING_GISKINTI" Tag="AGELESS"/>
+		<Row Type="BUILDING_HUWASI_JEC" Tag="HAPPINESS"/>
+		<Row Type="BUILDING_HUWASI_JEC" Tag="UNIQUE"/>
+		<Row Type="BUILDING_HUWASI_JEC" Tag="AGELESS"/>
+		<Row Type="BUILDING_HUWASI_JEC" Tag="RELIGIOUS"/>
+		<Row Type="BUILDING_GISKINTI_JEC" Tag="PRODUCTION"/>
+		<Row Type="BUILDING_GISKINTI_JEC" Tag="UNIQUE"/>
+		<Row Type="BUILDING_GISKINTI_JEC" Tag="AGELESS"/>
 	</TypeTags>
 	<Constructible_ValidDistricts>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_HUWASI" DistrictType="DISTRICT_CITY_CENTER"/>
-		<Row ConstructibleType="BUILDING_HUWASI" DistrictType="DISTRICT_URBAN"/>
-		<Row ConstructibleType="BUILDING_GISKINTI" DistrictType="DISTRICT_CITY_CENTER"/>
-		<Row ConstructibleType="BUILDING_GISKINTI" DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="BUILDING_HUWASI_JEC" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_HUWASI_JEC" DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="BUILDING_GISKINTI_JEC" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_GISKINTI_JEC" DistrictType="DISTRICT_URBAN"/>
 	</Constructible_ValidDistricts>
 	<District_FreeConstructibles>
 
@@ -58,17 +58,17 @@
 	</AgeConstructibleDefaultMaintenances>
 	<Constructible_YieldChanges>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_HUWASI" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
-		<Row ConstructibleType="BUILDING_GISKINTI" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row ConstructibleType="BUILDING_HUWASI_JEC" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
+		<Row ConstructibleType="BUILDING_GISKINTI_JEC" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_HUWASI" YieldType="YIELD_GOLD" Amount="2"/>
-		<Row ConstructibleType="BUILDING_GISKINTI" YieldType="YIELD_GOLD" Amount="2"/>
+		<Row ConstructibleType="BUILDING_HUWASI_JEC" YieldType="YIELD_GOLD" Amount="2"/>
+		<Row ConstructibleType="BUILDING_GISKINTI_JEC" YieldType="YIELD_GOLD" Amount="2"/>
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
 		<!-- Civ Uniques -->
-		<Row ConstructibleType="BUILDING_HUWASI" YieldChangeId="HuwasiResouceFood"/>
+		<Row ConstructibleType="BUILDING_HUWASI_JEC" YieldChangeId="HuwasiResouceFood"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 		<!-- Civ Uniques -->
@@ -76,7 +76,7 @@
 		<Row ID="HittitePerunaHatraiCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_HILL"/>
 	</Adjacency_YieldChanges>
 	<Constructible_WarehouseYields>
-		<Row ConstructibleType="BUILDING_GISKINTI" YieldChangeId="GiskintiMineResourceHappiness"/>
+		<Row ConstructibleType="BUILDING_GISKINTI_JEC" YieldChangeId="GiskintiMineResourceHappiness"/>
 	</Constructible_WarehouseYields>
 	<Warehouse_YieldChanges>
 		<Row ID="GiskintiMineResourceHappiness" Age="AGE_ANTIQUITY" YieldType="YIELD_HAPPINESS" YieldChange="2" ConstructibleInCity="IMPROVEMENT_MINE_RESOURCE"/>
@@ -98,13 +98,13 @@
 	</Constructible_Logistics>
 	<Constructible_Plunders>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_HUWASI" PlunderType="PLUNDER_HEAL" Amount="30"/>
-		<Row ConstructibleType="BUILDING_GISKINTI" PlunderType="PLUNDER_HEAL" Amount="40"/>
+		<Row ConstructibleType="BUILDING_HUWASI_JEC" PlunderType="PLUNDER_HEAL" Amount="30"/>
+		<Row ConstructibleType="BUILDING_GISKINTI_JEC" PlunderType="PLUNDER_HEAL" Amount="40"/>
 	</Constructible_Plunders>
 	<ConstructibleModifiers>
 	</ConstructibleModifiers>
 	<UniqueQuarters>
-		<Row UniqueQuarterType="QUARTER_KUNTARRA" BuildingType1="BUILDING_HUWASI" BuildingType2="BUILDING_GISKINTI" Name="LOC_QUARTER_KUNTARRA_NAME" Description="LOC_QUARTER_KUNTARRA_DESCRIPTION" Tooltip="LOC_QUARTER_KUNTARRA_TOOLTIP" TraitType="TRAIT_HITTITE"/>
+		<Row UniqueQuarterType="QUARTER_KUNTARRA" BuildingType1="BUILDING_HUWASI_JEC" BuildingType2="BUILDING_GISKINTI_JEC" Name="LOC_QUARTER_KUNTARRA_NAME" Description="LOC_QUARTER_KUNTARRA_DESCRIPTION" Tooltip="LOC_QUARTER_KUNTARRA_TOOLTIP" TraitType="TRAIT_HITTITE_JEC"/>
 		
 	</UniqueQuarters>
 	<GameModifiers>

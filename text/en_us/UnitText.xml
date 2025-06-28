@@ -3,20 +3,20 @@
 	<EnglishText>
 		<!-- Unit Abilities -->
 
-		<!-- UNIT_GOLDEN_SPEARMAN -->
-		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_NAME">
+		<!-- UNIT_GOLDEN_SPEARMAN_JEC -->
+		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_JEC_NAME">
 			<Text>Golden Spearman</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_BASE_DESCRIPTION">
+		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_JEC_BASE_DESCRIPTION">
 			<Text>Hittite Unique Infantry Unit. +3 Combat Strength vs Independents.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_DESCRIPTION">
+		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_JEC_DESCRIPTION">
 			<Text>Hittite Unique Infantry Unit. +3 Combat Strength vs Independents.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_2_DESCRIPTION">
+		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_JEC_2_DESCRIPTION">
 			<Text>Tier 2 Hittite Infantry Cavalry Unit. +3 Combat Strength vs Independents.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_3_DESCRIPTION">
+		<Row Tag="LOC_UNIT_GOLDEN_SPEARMAN_JEC_3_DESCRIPTION">
 			<Text>Tier 3 Hittite Infantry Cavalry Unit. +3 Combat Strength vs Independents.</Text>
 		</Row>
 
@@ -28,18 +28,18 @@
 			<Text>+{1_Amount} Combat Strength vs Independents.</Text>
 		</Row>
 
-		<!-- UNIT_GOLDEN_CHARIOT -->
+		<!-- UNIT_GOLDEN_CHARIOT_JEC -->
 
-		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_NAME">
+		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_JEC_NAME">
 			<Text>Golden Chariot</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_BASE_DESCRIPTION">
+		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_JEC_BASE_DESCRIPTION">
 			<Text>Hittite Unique Cavalry Unit. Defeating an enemy Unit provides [icon:YIELD_GOLD] Gold [equal to 50% of its Combat Strength.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_DESCRIPTION">
+		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_JEC_DESCRIPTION">
 			<Text>Hittite Unique Cavalry Unit. Defeating an enemy Unit provides [icon:YIELD_GOLD] Gold [equal to 50% of its Combat Strength.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_2_DESCRIPTION">
+		<Row Tag="LOC_UNIT_GOLDEN_CHARIOT_JEC_2_DESCRIPTION">
 			<Text>Tier 2 Hittite Unique Cavalry Unit. Defeating an enemy Unit provides [icon:YIELD_GOLD] Gold [equal to 50% of its Combat Strength.</Text>
 		</Row>
 
@@ -52,10 +52,10 @@
 			<Text>Defeating an enemy Unit provides [icon:YIELD_GOLD] Gold [equal to 50% of its Combat Strength.</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_GAL_MESEDI_NAME">
+		<Row Tag="LOC_UNIT_GAL_MESEDI_JEC_NAME">
 			<Text>Gal Mesedi</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_GAL_MESEDI_DESCRIPTION">
+		<Row Tag="LOC_UNIT_GAL_MESEDI_JEC_DESCRIPTION">
 			<Text>Hittite Unique Commander Unit. +1 Combat Strength vs Urban Districts for every Tradition in the Government.</Text>
 		</Row>
 		

@@ -5,13 +5,13 @@
 			<Text>Play as the [B]Hitities[/B].</Text>
 		</Row>
 		<Row Tag="LOC_UNLOCK_PLAY_AS_HATSHEPSUT_HITTITE_TOOLTIP">
-			<Text>[B]{LOC_LEADER_HATSHEPSUT_NAME}[/B] was from the same region as the [B]{LOC_CIVILIZATION_HITTITE_NAME}[/B].</Text>
+			<Text>[B]{LOC_LEADER_HATSHEPSUT_NAME}[/B] was from the same region as the [B]{LOC_CIVILIZATION_HITTITE_JEC_NAME}[/B].</Text>
 		</Row>
 		<Row Tag="LOC_UNLOCK_PLAY_AS_XERXES_HITTITE_TOOLTIP">
-			<Text>[B]{LOC_LEADER_XERXES_NAME}[/B] ruled the same region as the [B]{LOC_CIVILIZATION_HITTITE_NAME}[/B].</Text>
+			<Text>[B]{LOC_LEADER_XERXES_NAME}[/B] ruled the same region as the [B]{LOC_CIVILIZATION_HITTITE_JEC_NAME}[/B].</Text>
 		</Row>
 		<Row Tag="LOC_UNLOCK_PLAY_AS_XERXES_ALT_HITTITE_TOOLTIP">
-			<Text>[B]{LOC_LEADER_XERXES_ALT_NAME}[/B] ruled the same region as the [B]{LOC_CIVILIZATION_HITTITE_NAME}[/B].</Text>
+			<Text>[B]{LOC_LEADER_XERXES_ALT_NAME}[/B] ruled the same region as the [B]{LOC_CIVILIZATION_HITTITE_JEC_NAME}[/B].</Text>
 		</Row>
 		<Row Tag="LOC_UNLOCK_PLAY_AS_HITTITE_ABBASID_TOOLTIP">
 			<Text>The [B]Hittites[/B] was from the same continent as the [B]Abbasids[/B].</Text>

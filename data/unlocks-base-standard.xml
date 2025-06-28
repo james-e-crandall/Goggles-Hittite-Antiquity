@@ -4,10 +4,10 @@
 		<InsertOrIgnore Kind="KIND_UNLOCK"/>
 	</Kinds>
 	<Types>
-		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_HITTITE" Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_HITTITE_JEC" Kind="KIND_UNLOCK"/>
 	</Types>
 	<Unlocks>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HITTITE"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HITTITE_JEC"/>
 	</Unlocks>
 	<UnlockRewards>
 	</UnlockRewards>
@@ -18,7 +18,7 @@
 		<Row RequirementId="REQ_CIV_IS_HITTITE" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
 	</Requirements>
 	<RequirementArguments>
-		<Row RequirementId="REQ_CIV_IS_HITTITE" Name="CivilizationType" Value="CIVILIZATION_HITTITE"/>
+		<Row RequirementId="REQ_CIV_IS_HITTITE" Name="CivilizationType" Value="CIVILIZATION_HITTITE_JEC"/>
 	</RequirementArguments>
 	<RequirementSetRequirements>
 		<Row RequirementSetId="REQSET_CIV_IS_HITTITE" RequirementId="REQ_CIV_IS_HITTITE"/>
@@ -29,6 +29,6 @@
 		
 	</UnlockRequirements>
 	<UnlockConfigurationValues>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HITTITE" ConfigurationValue="CIVILIZATION_HITTITE"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_HITTITE_JEC" ConfigurationValue="CIVILIZATION_HITTITE_JEC"/>
 	</UnlockConfigurationValues>
 </Database>

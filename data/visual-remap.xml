@@ -2,47 +2,47 @@
 <Database>
     <VisualRemaps>
         <Row>
-            <ID>REMAP_UNIT_GOLDEN_SPEARMAN</ID>
-            <DisplayName>LOC_UNIT_GOLDEN_SPEARMAN_NAME</DisplayName>
+            <ID>REMAP_UNIT_GOLDEN_SPEARMAN_JEC</ID>
+            <DisplayName>LOC_UNIT_GOLDEN_SPEARMAN_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_GOLDEN_SPEARMAN</From>
+            <From>UNIT_GOLDEN_SPEARMAN_JEC</From>
             <To>UNIT_WARRIOR</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_GOLDEN_SPEARMAN_2</ID>
-            <DisplayName>LOC_UNIT_GOLDEN_SPEARMAN_NAME</DisplayName>
+            <ID>REMAP_UNIT_GOLDEN_SPEARMAN_JEC_2</ID>
+            <DisplayName>LOC_UNIT_GOLDEN_SPEARMAN_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_GOLDEN_SPEARMAN_2</From>
+            <From>UNIT_GOLDEN_SPEARMAN_JEC_2</From>
             <To>UNIT_SPEARMAN</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_GOLDEN_SPEARMAN_3</ID>
-            <DisplayName>LOC_UNIT_GOLDEN_SPEARMAN_NAME</DisplayName>
+            <ID>REMAP_UNIT_GOLDEN_SPEARMAN_JEC_3</ID>
+            <DisplayName>LOC_UNIT_GOLDEN_SPEARMAN_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_GOLDEN_SPEARMAN_3</From>
+            <From>UNIT_GOLDEN_SPEARMAN_JEC_3</From>
             <To>UNIT_PHALANX</To>
         </Row>
              
         <Row>
-            <ID>REMAP_UNIT_GOLDEN_CHARIOT</ID>
-            <DisplayName>LOC_UNIT_GOLDEN_CHARIOT_NAME</DisplayName>
+            <ID>REMAP_UNIT_GOLDEN_CHARIOT_JEC</ID>
+            <DisplayName>LOC_UNIT_GOLDEN_CHARIOT_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_GOLDEN_CHARIOT</From>
+            <From>UNIT_GOLDEN_CHARIOT_JEC</From>
             <To>UNIT_CHARIOT</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_GOLDEN_CHARIOT_2</ID>
-            <DisplayName>LOC_UNIT_GOLDEN_CHARIOT_NAME</DisplayName>
+            <ID>REMAP_UNIT_GOLDEN_CHARIOT_JEC_2</ID>
+            <DisplayName>LOC_UNIT_GOLDEN_CHARIOT_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_GOLDEN_CHARIOT_2</From>
+            <From>UNIT_GOLDEN_CHARIOT_JEC_2</From>
             <To>UNIT_CHARIOT</To>
         </Row>
 
         <Row>
-            <ID>REMAP_UNIT_GAL_MESEDI</ID>
-            <DisplayName>LOC_UNIT_GAL_MESEDI_NAME</DisplayName>
+            <ID>REMAP_UNIT_GAL_MESEDI_JEC</ID>
+            <DisplayName>LOC_UNIT_GAL_MESEDI_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_GAL_MESEDI</From>
+            <From>UNIT_GAL_MESEDI_JEC</From>
             <To>UNIT_ARMY_COMMANDER</To>
         </Row>
 

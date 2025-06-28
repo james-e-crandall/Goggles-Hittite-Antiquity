@@ -2,22 +2,22 @@
 <Database>
 	<EnglishText>
 		<!-- BUILDINGS -->
-		<Row Tag="LOC_BUILDING_HUWASI_NAME">
+		<Row Tag="LOC_BUILDING_HUWASI_JEC_NAME">
 			<Text>Huwasi (Standing Stone)</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_HUWASI_DESCRIPTION">
+		<Row Tag="LOC_BUILDING_HUWASI_JEC_DESCRIPTION">
 			<Text>+3 [icon:YIELD_HAPPINESS]Happiness. +1 [icon:YIELD_FOOD] Food for each adjacent Resource. Can only be placed adjacent to Hills.</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_HUWASI_TOOLTIP">
+		<Row Tag="LOC_BUILDING_HUWASI_JEC_TOOLTIP">
 			<Text>+3 [icon:YIELD_HAPPINESS]Happiness. +1 [icon:YIELD_FOOD] Food for each adjacent Resource. Can only be placed adjacent to Hills.</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_GISKINTI_NAME">
+		<Row Tag="LOC_BUILDING_GISKINTI_JEC_NAME">
 			<Text>Giškinti (Smelter)</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_GISKINTI_DESCRIPTION">
+		<Row Tag="LOC_BUILDING_GISKINTI_JEC_DESCRIPTION">
 			<Text>+2 [icon:YIELD_PRODUCTION]Production. +2 [icon:YIELD_HAPPINESS] Happiness to each Mined Resource assigned to the city. Can only be placed adjacent to Hills. </Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_GISKINTI_TOOLTIP">
+		<Row Tag="LOC_BUILDING_GISKINTI_JEC_TOOLTIP">
 			<Text>+2 [icon:YIELD_PRODUCTION]Production. +2 [icon:YIELD_HAPPINESS] Happiness to each Mined Resource assigned to the city. Can only be placed adjacent to Hills. </Text>
 		</Row>
 		<!-- QUARTER -->

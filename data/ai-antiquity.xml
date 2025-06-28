@@ -19,23 +19,23 @@
 	</AiListTypes>
 	<AiLists>
 		<!-- Hittite -->
-		<Row ListType="Hittite Unit Biases" LeaderType="TRAIT_HITTITE" System="UnitBiases"/>
-		<Row ListType="Hittite Government Bias" LeaderType="TRAIT_HITTITE" System="GovernmentBiases"/>
-		<Row ListType="Hittite Constructibles Biases" LeaderType="TRAIT_HITTITE" System="ConstructibleBiases" />	
-		<Row ListType="Hittite Budget Biases" LeaderType="TRAIT_HITTITE" System="AiBudgetBiases"/>	
-		<Row ListType="Hittite PseudoYield Biases" LeaderType="TRAIT_HITTITE" System="PseudoYieldBiases"/>	
-		<Row ListType="Hittite Tag Biases" LeaderType="TRAIT_HITTITE" System="TagBiases"/>
+		<Row ListType="Hittite Unit Biases" LeaderType="TRAIT_HITTITE_JEC" System="UnitBiases"/>
+		<Row ListType="Hittite Government Bias" LeaderType="TRAIT_HITTITE_JEC" System="GovernmentBiases"/>
+		<Row ListType="Hittite Constructibles Biases" LeaderType="TRAIT_HITTITE_JEC" System="ConstructibleBiases" />	
+		<Row ListType="Hittite Budget Biases" LeaderType="TRAIT_HITTITE_JEC" System="AiBudgetBiases"/>	
+		<Row ListType="Hittite PseudoYield Biases" LeaderType="TRAIT_HITTITE_JEC" System="PseudoYieldBiases"/>	
+		<Row ListType="Hittite Tag Biases" LeaderType="TRAIT_HITTITE_JEC" System="TagBiases"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- Hittite -->
-		<Row ListType="Hittite Constructibles Biases" Item="BUILDING_HUWASI" Value="200" />
-		<Row ListType="Hittite Constructibles Biases" Item="BUILDING_GISKINTI" Value="200" />
+		<Row ListType="Hittite Constructibles Biases" Item="BUILDING_HUWASI_JEC" Value="200" />
+		<Row ListType="Hittite Constructibles Biases" Item="BUILDING_GISKINTI_JEC" Value="200" />
 		<Row ListType="Hittite Constructibles Biases" Item="WONDER_YAZILIKAYA" Value="50"/>
-		<Row ListType="Hittite Unit Biases" Item="UNIT_GOLDEN_SPEARMAN" Value="50"/>
-		<Row ListType="Hittite Unit Biases" Item="UNIT_GOLDEN_SPEARMAN_2" Value="50"/>
-		<Row ListType="Hittite Unit Biases" Item="UNIT_GOLDEN_SPEARMAN_3" Value="50"/>
-		<Row ListType="Hittite Unit Biases" Item="UNIT_GOLDEN_CHARIOT" Value="50"/>
-		<Row ListType="Hittite Unit Biases" Item="UNIT_GOLDEN_CHARIOT_2" Value="50"/>
+		<Row ListType="Hittite Unit Biases" Item="UNIT_GOLDEN_SPEARMAN_JEC" Value="50"/>
+		<Row ListType="Hittite Unit Biases" Item="UNIT_GOLDEN_SPEARMAN_JEC_2" Value="50"/>
+		<Row ListType="Hittite Unit Biases" Item="UNIT_GOLDEN_SPEARMAN_JEC_3" Value="50"/>
+		<Row ListType="Hittite Unit Biases" Item="UNIT_GOLDEN_CHARIOT_JEC" Value="50"/>
+		<Row ListType="Hittite Unit Biases" Item="UNIT_GOLDEN_CHARIOT_JEC_2" Value="50"/>
 	</AiFavoredItems>
 	<!-- City Strategies -->
 	<Strategies>

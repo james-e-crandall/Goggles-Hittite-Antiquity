@@ -9,10 +9,10 @@
 
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
-		<Row ProgressionTreeNodeType="NODE_TECH_AQ_BRONZE_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_GOLDEN_SPEARMAN_2" UnlockDepth="1" RequiredTraitType="TRAIT_HITTITE"/>
-		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_GOLDEN_SPEARMAN_3" UnlockDepth="1" RequiredTraitType="TRAIT_HITTITE"/>
-		<Row ProgressionTreeNodeType="NODE_TECH_AQ_WHEEL" TargetKind="KIND_UNIT" TargetType="UNIT_GOLDEN_CHARIOT" UnlockDepth="1" RequiredTraitType="TRAIT_HITTITE"/>
-		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_GOLDEN_CHARIOT_2" UnlockDepth="1" RequiredTraitType="TRAIT_HITTITE"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_BRONZE_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_GOLDEN_SPEARMAN_JEC_2" UnlockDepth="1" RequiredTraitType="TRAIT_HITTITE_JEC"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_GOLDEN_SPEARMAN_JEC_3" UnlockDepth="1" RequiredTraitType="TRAIT_HITTITE_JEC"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_WHEEL" TargetKind="KIND_UNIT" TargetType="UNIT_GOLDEN_CHARIOT_JEC" UnlockDepth="1" RequiredTraitType="TRAIT_HITTITE_JEC"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_AQ_IRON_WORKING" TargetKind="KIND_UNIT" TargetType="UNIT_GOLDEN_CHARIOT_JEC_2" UnlockDepth="1" RequiredTraitType="TRAIT_HITTITE_JEC"/>
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
 

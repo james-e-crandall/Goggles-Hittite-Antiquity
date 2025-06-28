@@ -3,23 +3,23 @@
     <IconDefinitions>
         <!-- Civ Symbol-->
         <Row>
-            <ID>CIVILIZATION_HITTITE</ID>
-            <Path>fs://game/goggles_civ_hittite/icons/civ_sym_hittite</Path>
+            <ID>CIVILIZATION_HITTITE_JEC</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/civ_sym_hittite_jec</Path>
             <Context>DEFAULT</Context>
         </Row>
 		<Row>
-			<ID>ICON_CIVILIZATION_HITTITE</ID>
-            <Path>fs://game/goggles_civ_hittite/icons/civ_sym_hittite</Path>
+			<ID>ICON_CIVILIZATION_HITTITE_JEC</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/civ_sym_hittite_jec</Path>
 		</Row>
         <!-- Loadscreen -->
 		<Row>
-			<ID>CIVILIZATION_HITTITE</ID>
+			<ID>CIVILIZATION_HITTITE_JEC</ID>
 			<Context>BACKGROUND</Context>
 			<Path>fs://game/goggles_civ_hittite/icons/lsbg_hittite_1080</Path>
 			<IconSize>1080</IconSize>
 		</Row>
 		<Row>
-			<ID>CIVILIZATION_HITTITE</ID>
+			<ID>CIVILIZATION_HITTITE_JEC</ID>
 			<Context>BACKGROUND</Context>
 			<Path>fs://game/goggles_civ_hittite/icons/lsbg_hittite_720</Path>
 			<IconSize>720</IconSize>
@@ -27,17 +27,17 @@
         <!-- Culture -->
         <Row>
             <ID>cult_hittite</ID>
-            <Path>fs://game/goggles_civ_hittite/icons/cult_hittite.png</Path>
+            <Path>fs://game/goggles_civ_hittite/icons/cult_hittite_jec.png</Path>
         </Row> 
         <!-- constructables -->
         <Row>
-            <ID>BUILDING_HUWASI</ID>
-            <Path>fs://game/goggles_civ_hittite/icons/buildicon_huwasi.png</Path>
+            <ID>BUILDING_HUWASI_JEC</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/buildicon_huwasi_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>BUILDING_GISKINTI</ID>
-            <Path>fs://game/goggles_civ_hittite/icons/buildicon_giskinti.png</Path>
+            <ID>BUILDING_GISKINTI_JEC</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/buildicon_giskinti_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <!-- wonder -->
@@ -48,35 +48,35 @@
 
         <!-- UU AND UI -->
         <Row>
-            <ID>UNIT_GOLDEN_SPEARMAN</ID>
-            <Path>fs://game/goggles_civ_hittite/icons/unitflag_golden_spearman.png</Path>
+            <ID>UNIT_GOLDEN_SPEARMAN_JEC</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/unitflag_golden_spearman_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_GOLDEN_SPEARMAN_2</ID>
-            <Path>fs://game/goggles_civ_hittite/icons/unitflag_golden_spearman.png</Path>
+            <ID>UNIT_GOLDEN_SPEARMAN_JEC_2</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/unitflag_golden_spearman_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_GOLDEN_SPEARMAN_3</ID>
-            <Path>fs://game/goggles_civ_hittite/icons/unitflag_golden_spearman.png</Path>
-            <Context>DEFAULT</Context>
-        </Row>
-
-        <Row>
-            <ID>UNIT_GOLDEN_CHARIOT</ID>
-            <Path>fs://game/goggles_civ_hittite/icons/unitflag_golden_chariot.png</Path>
-            <Context>DEFAULT</Context>
-        </Row>
-        <Row>
-            <ID>UNIT_GOLDEN_CHARIOT_2</ID>
-            <Path>fs://game/goggles_civ_hittite/icons/unitflag_golden_chariot.png</Path>
+            <ID>UNIT_GOLDEN_SPEARMAN_JEC_3</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/unitflag_golden_spearman_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
 
         <Row>
-            <ID>UNIT_GAL_MESEDI</ID>
-            <Path>fs://game/goggles_civ_hittite/icons/unitflag_gal_mesedi.png</Path>
+            <ID>UNIT_GOLDEN_CHARIOT_JEC</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/unitflag_golden_chariot_jec.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_GOLDEN_CHARIOT_JEC_2</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/unitflag_golden_chariot_jec.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+
+        <Row>
+            <ID>UNIT_GAL_MESEDI_JEC</ID>
+            <Path>fs://game/goggles_civ_hittite/icons/unitflag_gal_mesedi_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
     </IconDefinitions>

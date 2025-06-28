@@ -4,7 +4,7 @@
 
 	</LoadingInfo_Ages>
 	<LoadingInfo_Civilizations>
-		<Row CivilizationType="CIVILIZATION_HITTITE" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_HITTITE" Audio="VO_Loading_Hittite" Subtitle="LOC_LOADING_INTRO_HITTITE" BackgroundImageHigh="fs://game/goggles_civ_hittite/icons/lsbg_hittite_1080.png" BackgroundImageLow="fs://game/goggles_civ_hittite/icons/lsbg_hittie_720.png" ForegroundImage="fs://goggles_civ_hittite/icon/civ_line_hittite.png" />
+		<Row CivilizationType="CIVILIZATION_HITTITE_JEC" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_HITTITE" Audio="VO_Loading_Hittite" Subtitle="LOC_LOADING_INTRO_HITTITE" BackgroundImageHigh="fs://game/goggles_civ_hittite/icons/lsbg_hittite_1080.png" BackgroundImageLow="fs://game/goggles_civ_hittite/icons/lsbg_hittie_720.png" ForegroundImage="fs://goggles_civ_hittite/icon/civ_line_hittite.png" />
 	</LoadingInfo_Civilizations>
 
 </Database>
