@@ -67,9 +67,9 @@
 					<Item>text/en_us/UnlockText.xml</Item>
                 </UpdateText>
                 <ImportFiles>
-					<Item>icons/civ_sym_hittite</Item>
-                    <Item>icons/civ_sym_hittite.png</Item>
-					<Item>icons/cult_hittite.png</Item>
+					<Item>icons/civ_sym_hittite_jec</Item>
+                    <Item>icons/civ_sym_hittite_jec.png</Item>
+					<Item>icons/cult_hittite_jec.png</Item>
 					<Item>icons/wondericon_yazilikaya.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
@@ -114,9 +114,9 @@
 				<UpdateArt>
 				</UpdateArt>
                 <ImportFiles>
-					<Item>icons/unitflag_golden_spearman.png</Item>
-					<Item>icons/unitflag_golden_chariot.png</Item>
-					<Item>icons/unitflag_gal_mesedi.png</Item>
+					<Item>icons/unitflag_golden_spearman_jec.png</Item>
+					<Item>icons/unitflag_golden_chariot_jec.png</Item>
+					<Item>icons/unitflag_gal_mesedi_jec.png</Item>
                 </ImportFiles>
 				<UpdateDatabase>
 					<Item>data/ai-antiquity.xml</Item>
@@ -151,13 +151,13 @@
 					<Item>config/config.xml</Item>
 				</UpdateDatabase>
                 <ImportFiles>
-					<Item>icons/civ_sym_hittite</Item>
-                    <Item>icons/civ_sym_hittite.png</Item>
-					<Item>icons/cult_hittite.png</Item>
+					<Item>icons/civ_sym_hittite_jec</Item>
+                    <Item>icons/civ_sym_hittite_jec.png</Item>
+					<Item>icons/cult_hittite_jec.png</Item>
 					<Item>icons/wondericon_yazilikaya.png</Item>
-					<Item>icons/unitflag_golden_spearman.png</Item>
-					<Item>icons/unitflag_golden_chariot.png</Item>
-					<Item>icons/unitflag_gal_mesedi.png</Item>
+					<Item>icons/unitflag_golden_spearman_jec.png</Item>
+					<Item>icons/unitflag_golden_chariot_jec.png</Item>
+					<Item>icons/unitflag_gal_mesedi_jec.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
                     <Item>data/icons/hittite.xml</Item>
