@@ -7,7 +7,7 @@
 		<Row Tag="LOC_LOADING_INTRO_HITTITE">
 			<Text>These are the words of the Sun1 Mursilis, the great king, the king of the Hatti land, the valiant, the favourite of the storm-god, the son of Suppiluliumas, the great king, the king of the Hatti land, the valiant.</Text>
 		</Row>
-		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_HITTITE">
+		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_HITTITE_JEC">
 			<Text>The land of Hatti is one balanced around benifiting from rough terrain and military expansion.</Text>
 		</Row>
 	</EnglishText>
